@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="vi">
+  <file source-language="en" datatype="plaintext" original="" target-language="vi">
     <body>
         <trans-unit id="Two-factor authentication" datatype="html">
             <source>Two-factor authentication</source>
