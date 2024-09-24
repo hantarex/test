@@ -1,144 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="" target-language="pt">
     <body>
-        <trans-unit id="Two-factor authentication" datatype="html">
-          <source>Two-factor authentication</source>
-          <target>Autenticação de dois fatores</target>
-        </trans-unit>
-        <trans-unit id="Automatic reload after" datatype="html">
-            <source>Automatic reload after </source>
-            <target>Recarga automática após </target>
-        </trans-unit>
-        <trans-unit id="event070424_1" datatype="html">
-            <source>You must do these actions before 04/10/2024, otherwise our system will count pending trades as unsuccessful.</source>
-            <target>Você deve realizar essas ações antes de 10/04/2024, caso contrário nosso sistema contará as negociações pendentes como malsucedidas.</target>
-        </trans-unit>
-          <trans-unit id="event070424" datatype="html">
-            <source>Attention! We have fully resumed trading operations. If you have any trades stuck, update the MarketApp or extension to the latest versions and log in. If you trade in another way, bind the access token via a POST request with JSON. Read more <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot; href=&quot;https://t.me/market_csgo_dota2/148&quot;&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
-            <target>Atenção! Retomamos totalmente as operações comerciais. Se você tiver alguma negociação travada, atualize o MarketApp ou extensão para as versões mais recentes e faça login. Se você negociar de outra forma, vincule o token de acesso por meio de uma solicitação POST com JSON. Leia mais <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot; href=&quot;https://t.me/market_csgo_dota2/148&quot;&gt;"/>aquí<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
-          </trans-unit>
-        <trans-unit id="Market Title" datatype="html">
-            <source>CSGO Market - sell skins cs go, buy skins cs go!</source>
-            <target>CSGO Market - vende skins cs go, compra skins cs go!</target>
-        </trans-unit>
-        <trans-unit id="Volume" datatype="html">
-            <source>Volume</source>
-            <target>Tom</target>
-        </trans-unit>
-        <trans-unit id="pc" datatype="html">
-            <source>pc</source>
-            <target> pc.</target>
-        </trans-unit>
-      <trans-unit id="ngb.alert.close" datatype="html">
-        <source>Close</source>
-        <target>Fechar</target>
+      <trans-unit id="Automatic reload after" datatype="html">
+        <source>Automatic reload after </source>
+        <target>Recarga automática após </target>
+      </trans-unit>
+      <trans-unit id="event070424_1" datatype="html">
+        <source>You must do these actions before 04/10/2024, otherwise our system will count pending trades as unsuccessful.</source>
+        <target>Você deve realizar essas ações antes de 10/04/2024, caso contrário nosso sistema contará as negociações pendentes como malsucedidas.</target>
+      </trans-unit>
+      <trans-unit id="event070424" datatype="html">
+        <source>Attention! We have fully resumed trading operations. If you have any trades stuck, update the MarketApp or extension to the latest versions and log in. If you trade in another way, bind the access token via a POST request with JSON. Read more <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot; href=&quot;https://t.me/market_csgo_dota2/148&quot;&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <target>Atenção! Retomamos totalmente as operações comerciais. Se você tiver alguma negociação travada, atualize o MarketApp ou extensão para as versões mais recentes e faça login. Se você negociar de outra forma, vincule o token de acesso por meio de uma solicitação POST com JSON. Leia mais <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot; href=&quot;https://t.me/market_csgo_dota2/148&quot;&gt;"/>aquí<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+      </trans-unit>
+      <trans-unit id="Market Title" datatype="html">
+        <source>CSGO Market - sell skins cs go, buy skins cs go!</source>
+        <target>CSGO Market - vende skins cs go, compra skins cs go!</target>
+      </trans-unit>
+      <trans-unit id="Volume" datatype="html">
+        <source>Volume</source>
+        <target>Tom</target>
+      </trans-unit>
+      <trans-unit id="pc" datatype="html">
+        <source>pc</source>
+        <target> pc.</target>
+      </trans-unit>
+      <trans-unit id="All autobuy requests" datatype="html">
+        <source>All autobuy requests</source>
+        <target>Todos os pedidos de compra automática</target>
+      </trans-unit>
+      <trans-unit id="Qty" datatype="html">
+        <source>Qty</source>
+        <target>quantidade</target>
+      </trans-unit>
+      <trans-unit id="Items for sale" datatype="html">
+        <source>Items for sale</source>
+        <target>itens para venda</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
-          <context context-type="linenumber">79,80</context>
+          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-actions/sell-items-actions.component.html</context>
+          <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ngb.carousel.slide-number" datatype="html">
-        <source> Slide <x id="INTERPOLATION" equiv-text="ing keyboard &apos;a"/> of <x id="INTERPOLATION_1" equiv-text="right&apos;.
-   */"/> </source>
+      <trans-unit id="Cancel the trade" datatype="html">
+        <source>Cancel the trade</source>
+        <target>Cancelar negociação</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
-          <context context-type="linenumber">154,159</context>
+          <context context-type="sourcefile">src/app/modules/inventory/components/base-item/base-item.component.html</context>
+          <context context-type="linenumber">170,171</context>
         </context-group>
-        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
-      </trans-unit>
-        <trans-unit id="All autobuy requests" datatype="html">
-            <source>All autobuy requests</source>
-            <target>Todos os pedidos de compra automática</target>
-        </trans-unit>
-        <trans-unit id="Qty" datatype="html">
-            <source>Qty</source>
-            <target>quantidade</target>
-        </trans-unit>
-      <trans-unit id="ngb.carousel.previous" datatype="html">
-        <source>Previous</source>
-        <target>Anterior</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
-          <context context-type="linenumber">184</context>
+          <context context-type="sourcefile">src/app/modules/inventory/components/base-item/base-item.component.html</context>
+          <context context-type="linenumber">201,203</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ngb.carousel.next" datatype="html">
-        <source>Next</source>
-        <target>Próxima</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
-          <context context-type="linenumber">205</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.datepicker.select-month" datatype="html">
-        <source>Select month</source>
-        <target>Selecione o mês</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.datepicker.select-year" datatype="html">
-        <source>Select year</source>
-        <target>Selecione o ano</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
-        <source>Previous month</source>
-        <target>Mês anterior</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-      </trans-unit>
-        <trans-unit id="Items for sale" datatype="html">
-            <source>Items for sale</source>
-            <target>itens para venda</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-actions/sell-items-actions.component.html</context>
-                <context context-type="linenumber">3,4</context>
-            </context-group>
-        </trans-unit>
-      <trans-unit id="ngb.datepicker.next-month" datatype="html">
-        <source>Next month</source>
-        <target>Próximo mês</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-      </trans-unit>
-        <trans-unit id="Cancel the trade" datatype="html">
-            <source>Cancel the trade</source>
-            <target>Cancelar negociação</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/inventory/components/base-item/base-item.component.html</context>
-                <context context-type="linenumber">170,171</context>
-            </context-group>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/inventory/components/base-item/base-item.component.html</context>
-                <context context-type="linenumber">201,203</context>
-            </context-group>
-        </trans-unit>
       <trans-unit id="ngb.pagination.first" datatype="html">
         <source>««</source>
         <context-group purpose="location">
@@ -153,26 +68,26 @@
           <context context-type="linenumber">267</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="ATTENTION! At the moment, exchanges on Steam are working with a very low traffic, so your transactions are not work." datatype="html">
-            <source>ATTENTION! At the moment, exchanges on Steam are working with a very low traffic, so your transactions are not work.</source>
-            <target>ATENÇÃO! No momento, as trocas no Steam estão funcionando com um tráfego muito baixo, então suas transações não estão funcionando.</target>
-        </trans-unit>
-        <trans-unit id="More" datatype="html">
-            <source>More</source>
-            <target>Mais</target>
-        </trans-unit>
-        <trans-unit id="Hide" datatype="html">
-            <source>Hide</source>
-            <target>Esconder</target>
-        </trans-unit>
-        <trans-unit id="If you do not receive an exchange, do not receive money, do not receive an item - wait 24 hours and only then write to Technical Support if your problem is not solved. Otherwise, your ticket will be closed without a response." datatype="html">
-            <source>If you do not receive an exchange, do not receive money, do not receive an item - wait 24 hours and only then write to Technical Support if your problem is not solved. Otherwise, your ticket will be closed without a response.</source>
-            <target>Se você não receber uma troca, não receber dinheiro, não receber um item - aguarde 24 horas e só então escreva para o Suporte Técnico se o seu problema não for resolvido. Caso contrário, seu ticket será encerrado sem resposta.</target>
-        </trans-unit>
-        <trans-unit id="If your problem is not related to sales and purchases, write to support" datatype="html">
-            <source>If your problem is not related to sales and purchases, write to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>support<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
-            <target>Se o seu problema não estiver relacionado a vendas e compras, escreva para o serviço de <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>suporte<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
-        </trans-unit>
+      <trans-unit id="ATTENTION! At the moment, exchanges on Steam are working with a very low traffic, so your transactions are not work." datatype="html">
+        <source>ATTENTION! At the moment, exchanges on Steam are working with a very low traffic, so your transactions are not work.</source>
+        <target>ATENÇÃO! No momento, as trocas no Steam estão funcionando com um tráfego muito baixo, então suas transações não estão funcionando.</target>
+      </trans-unit>
+      <trans-unit id="More" datatype="html">
+        <source>More</source>
+        <target>Mais</target>
+      </trans-unit>
+      <trans-unit id="Hide" datatype="html">
+        <source>Hide</source>
+        <target>Esconder</target>
+      </trans-unit>
+      <trans-unit id="If you do not receive an exchange, do not receive money, do not receive an item - wait 24 hours and only then write to Technical Support if your problem is not solved. Otherwise, your ticket will be closed without a response." datatype="html">
+        <source>If you do not receive an exchange, do not receive money, do not receive an item - wait 24 hours and only then write to Technical Support if your problem is not solved. Otherwise, your ticket will be closed without a response.</source>
+        <target>Se você não receber uma troca, não receber dinheiro, não receber um item - aguarde 24 horas e só então escreva para o Suporte Técnico se o seu problema não for resolvido. Caso contrário, seu ticket será encerrado sem resposta.</target>
+      </trans-unit>
+      <trans-unit id="If your problem is not related to sales and purchases, write to support" datatype="html">
+        <source>If your problem is not related to sales and purchases, write to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>support<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <target>Se o seu problema não estiver relacionado a vendas e compras, escreva para o serviço de <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>suporte<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+      </trans-unit>
       <trans-unit id="ngb.pagination.next" datatype="html">
         <source>»</source>
         <context-group purpose="location">
@@ -215,118 +130,6 @@
           <context context-type="linenumber">378,379</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ngb.progressbar.value" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="ap background c"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/progressbar/progressbar.ts</context>
-          <context context-type="linenumber">67</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.HH" datatype="html">
-        <source>HH</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">138,140</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.hours" datatype="html">
-        <source>Hours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">161</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.MM" datatype="html">
-        <source>MM</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">182</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.minutes" datatype="html">
-        <source>Minutes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">199</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
-        <source>Increment hours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">217,219</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
-        <source>Decrement hours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">239,241</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
-        <source>Increment minutes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">265,268</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
-        <source>Decrement minutes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">287,289</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.SS" datatype="html">
-        <source>SS</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">295</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.seconds" datatype="html">
-        <source>Seconds</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">295</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
-        <source>Increment seconds</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">295</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
-        <source>Decrement seconds</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">295</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.PM" datatype="html">
-        <source><x id="INTERPOLATION"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">295</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.AM" datatype="html">
-        <source><x id="INTERPOLATION"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">295</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.toast.close-aria" datatype="html">
-        <source>Close</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
-          <context context-type="linenumber">109,112</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="All rights reserved" datatype="html">
         <source>All rights reserved</source>
         <target>Todos os direitos reservados</target>
@@ -339,14 +142,14 @@
           <context context-type="linenumber">208,210</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Best Offer" datatype="html">
-            <source>Best Offer</source>
-            <target>Melhor oferta</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
-                <context context-type="linenumber">3</context>
-            </context-group>
-        </trans-unit>
+      <trans-unit id="Best Offer" datatype="html">
+        <source>Best Offer</source>
+        <target>Melhor oferta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="Contact us" datatype="html">
         <source>Contact us</source>
         <target>Contate-nos</target>
@@ -359,14 +162,14 @@
           <context context-type="linenumber">200,201</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Title Contact us" datatype="html">
-            <source>Contact us</source>
-            <target>Contate-nos</target>
-        </trans-unit>
-        <trans-unit id="Description Contact us" datatype="html">
-            <source>Contact us</source>
-            <target>Contate-nos</target>
-        </trans-unit>
+      <trans-unit id="Title Contact us" datatype="html">
+        <source>Contact us</source>
+        <target>Contate-nos</target>
+      </trans-unit>
+      <trans-unit id="Description Contact us" datatype="html">
+        <source>Contact us</source>
+        <target>Contate-nos</target>
+      </trans-unit>
       <trans-unit id="Legal" datatype="html">
         <source>Legal</source>
         <target>Regras</target>
@@ -379,14 +182,14 @@
           <context context-type="linenumber">201,203</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Title Legal" datatype="html">
-            <source>Legal</source>
-            <target>Regras</target>
-        </trans-unit>
-        <trans-unit id="Description Legal" datatype="html">
-            <source>Legal</source>
-            <target>Regras</target>
-        </trans-unit>
+      <trans-unit id="Title Legal" datatype="html">
+        <source>Legal</source>
+        <target>Regras</target>
+      </trans-unit>
+      <trans-unit id="Description Legal" datatype="html">
+        <source>Legal</source>
+        <target>Regras</target>
+      </trans-unit>
       <trans-unit id="market.csgo.com is not affiliated with Steam or Valve corp" datatype="html">
         <source> market.csgo.com is not affiliated with Steam or Valve corp </source>
         <target>market.csgo.com não afiliado ao Steam ou Valve corp</target>
@@ -459,14 +262,6 @@
           <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Cart is empty" datatype="html">
-        <source> Cart is empty </source>
-        <target>carrinho esta vazio</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/basket/basket.component.html</context>
-          <context context-type="linenumber">55,57</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Cancel" datatype="html">
         <source>Cancel</source>
         <target>Cancelar</target>
@@ -485,14 +280,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/basket/basket.component.ts</context>
           <context context-type="linenumber">36,34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Are you sure you want to delete the order for" datatype="html">
-        <source>Are you sure you want to delete the order for <x id="PH" equiv-text="this.order.market_hash_name"/></source>
-        <target>Tem certeza de que deseja excluir o pedido de <x id="PH" equiv-text="this.order.market_hash_name"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/item-with-editable-price/item-with-editable-price.component.ts</context>
-          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Are you sure you want to remove the notification on" datatype="html">
@@ -519,17 +306,9 @@
           <context context-type="linenumber">36,34</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Best Offers" datatype="html">
-        <source>Best Offer: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{offers[0].price}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon class=&quot;icon bold&quot; svgIcon=&quot;{{offers[0].currency}}&quot;&gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></source>
-        <target>Melhor oferta: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{offers[0].price}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon class=&quot;icon bold&quot; svgIcon=&quot;{{offers[0].currency}}&quot;&gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="offers-plural" datatype="html">
-          <source>{VAR_PLURAL, plural, =1 {offer} other {offers}}</source>
-          <target>{VAR_PLURAL, plural, =1 {ofertas} other {ofertas}}</target>
+        <source>{VAR_PLURAL, plural, =1 {offer} other {offers}}</source>
+        <target>{VAR_PLURAL, plural, =1 {ofertas} other {ofertas}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
           <context context-type="linenumber">10</context>
@@ -557,22 +336,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
           <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="offer" datatype="html">
-        <source>offer  </source>
-        <target>oferta  </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="for" datatype="html">
-        <source>for  </source>
-        <target>за  </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
-          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Your 3d link is ready" datatype="html">
@@ -707,22 +470,6 @@
           <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Dashboard" datatype="html">
-        <source>Dashboard</source>
-        <target>Painel</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header-mobile/header-mobile.component.html</context>
-          <context context-type="linenumber">34,35</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">89,90</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/menu/menu.component.html</context>
-          <context context-type="linenumber">22,24</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Sell Items" datatype="html">
         <source>Sell Items</source>
         <target>Vender itens</target>
@@ -737,22 +484,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/menu/menu.component.html</context>
           <context context-type="linenumber">29,31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="On sale" datatype="html">
-        <source>On sale</source>
-        <target>À venda</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header-mobile/header-mobile.component.html</context>
-          <context context-type="linenumber">48,49</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">103,104</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/menu/menu.component.html</context>
-          <context context-type="linenumber">36,38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Tracked Items" datatype="html">
@@ -775,47 +506,31 @@
           <context context-type="linenumber">43,45</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Close a window?" datatype="html">
-            <source>Close a window?</source>
-            <target>Fechar uma janela?</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal-error/exchange-link-modal-error.component.html</context>
-                <context context-type="linenumber">5</context>
-            </context-group>
-        </trans-unit>
-        <trans-unit id="Without a trade-url, you won&apos;t be able to buy or sell items" datatype="html">
-            <source> Without a trade-url, you won&apos;t be able to buy or sell items
+      <trans-unit id="Close a window?" datatype="html">
+        <source>Close a window?</source>
+        <target>Fechar uma janela?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal-error/exchange-link-modal-error.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Without a trade-url, you won't be able to buy or sell items" datatype="html">
+        <source> Without a trade-url, you won't be able to buy or sell items
             </source>
-            <target>Sem um URL de negociação, você não poderá comprar ou vender itens</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal-error/exchange-link-modal-error.component.html</context>
-                <context context-type="linenumber">7,9</context>
-            </context-group>
-        </trans-unit>
-        <trans-unit id="Return" datatype="html">
-            <source>Return</source>
-            <target>Retornar</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal-error/exchange-link-modal-error.component.html</context>
-                <context context-type="linenumber">12</context>
-            </context-group>
-        </trans-unit>
-        <trans-unit id="All is ready" datatype="html">
-            <source>All is ready</source>
-            <target>Tudo está pronto</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal/exchange-link-modal.component.html</context>
-                <context context-type="linenumber">12</context>
-            </context-group>
-        </trans-unit>
-        <trans-unit id="Now you can buy items" datatype="html">
-            <source> Now you can buy items </source>
-            <target>Agora você pode comprar itens</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal/exchange-link-modal.component.html</context>
-                <context context-type="linenumber">14,16</context>
-            </context-group>
-        </trans-unit>
+        <target>Sem um URL de negociação, você não poderá comprar ou vender itens</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal-error/exchange-link-modal-error.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Return" datatype="html">
+        <source>Return</source>
+        <target>Retornar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link-modal-error/exchange-link-modal-error.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="Autobuy" datatype="html">
         <source>Autobuy</source>
         <target>Compra automática</target>
@@ -1020,28 +735,12 @@
           <context context-type="linenumber">252,253</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4930506384627295710" datatype="html">
-        <source>Settings</source>
-        <target>Configurações</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">124,125</context>
-        </context-group>
-        <note priority="1" from="description">Settings</note>
-      </trans-unit>
       <trans-unit id="Login" datatype="html">
         <source>Login</source>
         <target>Entrar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.component.html</context>
           <context context-type="linenumber">217,218</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5157955012881067011" datatype="html">
-        <source><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;no__notifications&quot;&gt;"/><x id="START_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;app-svg name=&quot;no_notification&quot; [width]=&quot;28&quot; [height]=&quot;28&quot;&gt;"/><x id="CLOSE_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;/app-svg&gt;"/> No notifications <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/notifications/notification.component.html</context>
-          <context context-type="linenumber">5,8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Technical work in progress" datatype="html">
@@ -1058,14 +757,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/not-work/not-work.component.html</context>
           <context context-type="linenumber">6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="You can follow the updates in our VK group, Twitter, Telegram or Discord" datatype="html">
-        <source>You can follow the updates in our VK group, Twitter, Telegram or Discord</source>
-        <target>Acompanhe as atualizações em nosso grupo VK, Twitter, Telegram ou Discord</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/not-work/not-work.component.html</context>
-          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Transactions for all time" datatype="html">
@@ -1440,18 +1131,6 @@
           <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2046391739963920580" datatype="html">
-        <source>Quick search</source>
-        <target>Pesquisa rápida</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/filters/stickers/stickers.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared-components/search/search.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Add to basket" datatype="html">
         <source>Add to basket</source>
         <target>Adicionar ao carrinho</target>
@@ -1462,34 +1141,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
           <context context-type="linenumber">78,79</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Item has been added" datatype="html">
-        <source>Item has been added</source>
-        <target>Item adicionado</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/base-item/base-item.component.ts</context>
-          <context context-type="linenumber">55</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Error when add item to basket" datatype="html">
-        <source>Error when add item to basket</source>
-        <target>Erro ao adicionar item</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/base-item/base-item.component.ts</context>
-          <context context-type="linenumber">63</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="No guarantee" datatype="html">
-        <source>No guarantee</source>
-        <target>Não há garantia</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/buy-component/buy-component.component.html</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/sell-component/sell-component.component.html</context>
-          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Seller Waiting" datatype="html">
@@ -1562,13 +1213,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared-simple-components/scroll-pagination/scroll-pagination.component.html</context>
           <context context-type="linenumber">11,12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7042214106467371196" datatype="html">
-        <source>pcs</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/chart/chart.component.ts</context>
-          <context context-type="linenumber">152</context>
         </context-group>
       </trans-unit>
       <trans-unit id="There are no items matching your request, try loosening the filter or resetting it" datatype="html">
@@ -1671,7 +1315,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="Interested price" datatype="html">
-        <source> Interested price </source><target>Preço de interesse</target>
+        <source> Interested price </source>
+        <target>Preço de interesse</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/item-with-editable-price/item-with-editable-price.component.html</context>
           <context context-type="linenumber">11,13</context>
@@ -1847,18 +1492,6 @@
           <context context-type="linenumber">31,32</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Enabled" datatype="html">
-        <source>Enabled</source>
-        <target>Ativar</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
-          <context context-type="linenumber">95,96</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
-          <context context-type="linenumber">113,114</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Notify" datatype="html">
         <source>Notify</source>
         <target>Notificar</target>
@@ -1883,30 +1516,6 @@
           <context context-type="linenumber">38,40</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Buy if the price is lower" datatype="html">
-        <source>Buy if the price is lower</source>
-        <target>Comprar se o preço for menor</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
-          <context context-type="linenumber">107,108</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Set order" datatype="html">
-        <source>Set order</source>
-        <target>Definir pedido</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
-          <context context-type="linenumber">116,117</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="All orders" datatype="html">
-        <source>All orders</source>
-        <target>Todos os pedidos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
-          <context context-type="linenumber">121,122</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="This is your item." datatype="html">
         <source>This is your item.</source>
         <target>Este é o seu item.</target>
@@ -1929,30 +1538,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
           <context context-type="linenumber">158,159</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Error get 3d link" datatype="html">
-        <source>Error get 3d link</source>
-        <target>Erro ao obter o link 3D</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.ts</context>
-          <context context-type="linenumber">169</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Error url in response" datatype="html">
-        <source>Error url in response</source>
-        <target>URL errada</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.ts</context>
-          <context context-type="linenumber">180</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Error when get 3d link" datatype="html">
-        <source>Error when get 3d link</source>
-        <target>Erro ao obter o link 3D</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.ts</context>
-          <context context-type="linenumber">186</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Error in get in game link" datatype="html">
@@ -1987,10 +1572,10 @@
           <context context-type="linenumber">287</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Notification successfully deleted" datatype="html">
-            <source>Notification successfully deleted</source>
-            <target>Notificação excluída com sucesso</target>
-        </trans-unit>
+      <trans-unit id="Notification successfully deleted" datatype="html">
+        <source>Notification successfully deleted</source>
+        <target>Notificação excluída com sucesso</target>
+      </trans-unit>
       <trans-unit id="Failed to place notify" datatype="html">
         <source>Failed to place notify</source>
         <target>Erro ao configurar notificação </target>
@@ -2059,8 +1644,8 @@
           <context context-type="linenumber">67,68</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="You&apos;ll get" datatype="html">
-        <source>You&apos;ll get</source>
+      <trans-unit id="You'll get" datatype="html">
+        <source>You'll get</source>
         <target>Você obterá</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/sell-item/sell-item.component.html</context>
@@ -2123,22 +1708,6 @@
           <context context-type="linenumber">22,24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Method" datatype="html">
-        <source>Method</source>
-        <target>Método</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">25,26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">34,35</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">43,44</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Accept" datatype="html">
         <source>Accept</source>
         <target>Aceitar</target>
@@ -2151,124 +1720,36 @@
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="throw site" datatype="html">
-        <source>throw site</source>
-        <target>através do site</target>
+      <trans-unit id="Every time you withdraw funds from your account, you must enter payment password." datatype="html">
+        <source>Every time you withdraw funds from your account, you must enter payment password.</source>
+        <target>Toda vez que você retirar fundos de sua conta, você deve inserir a senha de pagamento.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">27,28</context>
+          <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/security.component.html</context>
+          <context context-type="linenumber">30,33</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="throw client" datatype="html">
-        <source>throw client</source>
-        <target>através do cliente</target>
+      <trans-unit id="Mail confirmed" datatype="html">
+        <source>Mail confirmed</source>
+        <target>Correio confirmado</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">36,37</context>
+          <context context-type="sourcefile">src/app/modules/email-confirm/email-confirm.component.html</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="By yourself in" datatype="html">
-        <source>By yourself in</source>
-        <target>Por conta própria em</target>
+      <trans-unit id="Now you can set up email alerts" datatype="html">
+        <source> Now you can set up email alerts </source>
+        <target> Agora você pode configurar alertas de e-mail </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="sourcefile">src/app/modules/email-confirm/email-confirm.component.html</context>
+          <context context-type="linenumber">8,10</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Every time you withdraw funds from your account, you must enter payment password." datatype="html">
-            <source>Every time you withdraw funds from your account, you must enter payment password.</source>
-            <target>Toda vez que você retirar fundos de sua conta, você deve inserir a senha de pagamento.</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/security.component.html</context>
-                <context context-type="linenumber">30,33</context>
-            </context-group>
-        </trans-unit>
-      <trans-unit id="Steam client" datatype="html">
-        <source>Steam client</source>
-        <target>Cliente Steam</target>
+      <trans-unit id="Go to settings" datatype="html">
+        <source>Go to settings</source>
+        <target>Vá para as configurações</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">45,46</context>
-        </context-group>
-      </trans-unit>
-        <trans-unit id="Mail confirmed" datatype="html">
-            <source>Mail confirmed</source>
-            <target>Correio confirmado</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/email-confirm/email-confirm.component.html</context>
-                <context context-type="linenumber">6</context>
-            </context-group>
-        </trans-unit>
-        <trans-unit id="Now you can set up email alerts" datatype="html">
-            <source> Now you can set up email alerts </source>
-            <target> Agora você pode configurar alertas de e-mail </target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/email-confirm/email-confirm.component.html</context>
-                <context context-type="linenumber">8,10</context>
-            </context-group>
-        </trans-unit>
-        <trans-unit id="Go to settings" datatype="html">
-            <source>Go to settings</source>
-            <target>Vá para as configurações</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/email-confirm/email-confirm.component.html</context>
-                <context context-type="linenumber">12</context>
-            </context-group>
-        </trans-unit>
-      <trans-unit id="for" datatype="html">
-        <source>for </source>
-        <target>para</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="For" datatype="html">
-        <source>For </source>
-        <target>Para</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ANY" datatype="html">
-        <source>ANY </source>
-        <target>QUALQUER </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="error try" datatype="html">
-        <source>error try </source>
-        <target>erros tente</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ALL" datatype="html">
-        <source>ALL </source>
-        <target>TUDO</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="methods of confirmation" datatype="html">
-        <source>methods of confirmation</source>
-        <target>métodos de confirmação</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">56,57</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="You must confirm the operation within 1 minute" datatype="html">
-        <source>You must confirm the operation within 1 minute</source>
-        <target>Você deve confirmar a operação dentro de 1 minuto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">57,62</context>
+          <context context-type="sourcefile">src/app/modules/email-confirm/email-confirm.component.html</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Recommended selling price:" datatype="html">
@@ -2319,38 +1800,6 @@
           <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Before buying, pay attention to the following rules" datatype="html">
-        <source>Before buying, pay attention to the following rules</source>
-        <target>Antes de comprar, preste atenção às seguintes regras</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/rules-for-buying/rules-for-buying.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Buying online is not instantaneous. Your money will be blocked for 10 minutes, after which you will either receive your item or get your money back." datatype="html">
-        <source> Buying online is not instantaneous. Your money will be blocked for 10 minutes, after which you will either receive your item or get your money back. </source>
-        <target>A compra online não acontece instantaneamente. Seu dinheiro será bloqueado por 10 minutos, após o qual você receberá seu item ou receberá seu dinheiro de volta.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/rules-for-buying/rules-for-buying.component.html</context>
-          <context context-type="linenumber">4,6</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/give-items/give-items.component.html</context>
-          <context context-type="linenumber">12,14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="If an exchange is created, but you do not accept it, you may be awarded demerit points. If you reject too many trades, the site will temporarily restrict your ability to buy for your account." datatype="html">
-        <source> If an exchange is created, but you do not accept it, you may be awarded demerit points. If you reject too many trades, the site will temporarily restrict your ability to buy for your account. </source>
-        <target> Se a troca for criada, mas você não a aceitar, poderá receber pontos de demérito. Se você recusar muitas negociações, o site limitará temporariamente sua capacidade de comprar para sua conta.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/rules-for-buying/rules-for-buying.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/give-items/give-items.component.html</context>
-          <context context-type="linenumber">15,17</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Confirm operation" datatype="html">
         <source>Confirm operation</source>
         <target>Confirme a operação</target>
@@ -2397,14 +1846,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
           <context context-type="linenumber">185,186</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="The automatic steam client allows you to send sold items by simply confirming the trade on your phone" datatype="html">
-        <source>The automatic steam client allows you to send sold items by simply confirming the trade on your phone</source>
-        <target>O cliente Steam automático permite enviar itens vendidos apenas confirmando a troca no seu celular.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/buy/components/banner/banner.component.html</context>
-          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Download" datatype="html">
@@ -2499,14 +1940,6 @@
           <context context-type="linenumber">76,77</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Withdrawal requests" datatype="html">
-        <source>Withdrawal requests</source>
-        <target>Solicitações de saque</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/balance.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Select Your Country" datatype="html">
         <source>Select Your Country</source>
         <target>Selecione seu país</target>
@@ -2563,14 +1996,6 @@
           <context context-type="linenumber">187,197</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Error in get payment countries" datatype="html">
-        <source>Error in get payment countries</source>
-        <target>Erro ao obter o país de pagamento</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/refill/refill.component.ts</context>
-          <context context-type="linenumber">81</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Please type a" datatype="html">
         <source>Please type a <x id="PH" equiv-text="extraFields[key].label"/></source>
         <target>Por favor, insira</target>
@@ -2619,48 +2044,6 @@
           <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="In case of specifying an incorrect number, wallets will not be returned." datatype="html">
-        <source> In case of specifying an incorrect number, wallets will not be returned. </source>
-        <target> No caso de especificar um número incorreto, dinheiro não será devolvido.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">8,10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="The process of processing a withdrawal request usually takes less than an hour, but in some situations it may take up to several business days." datatype="html">
-        <source> The process of processing a withdrawal request usually takes less than an hour, but in some situations it may take up to several business days. </source>
-        <target> O processo de processamento de uma solicitação de saque geralmente leva menos de uma hora, mas em algumas situações pode levar vários dias úteis. </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">11,15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="After the transfer of our application for withdrawal (the transition of the application to the status &apos;Transferred&apos;), it may take 3-4 business days before the funds are credited to the card
-                The payment system may refuse to transfer funds to the card after the transaction is completed. In this case, your funds will be returned to your account on the site.
-                If the card data is deleted before the application transitions to the &apos;Transferred&apos; status, the funds will not be transferred" datatype="html">
-        <source>After the transfer of our application for withdrawal (the transition of the application to the status &quot;Transferred&quot;), it may take 3-4 business days before the funds are credited to the card The payment system may refuse to transfer funds to the card after the transaction is completed. In this case, your funds will be returned to your account on the site. If the card data is deleted before the application transitions to the &quot;Transferred&quot; status, the funds will not be transferred </source>
-        <target>Após a transferência do nosso pedido de retirada (a transição do pedido para o status &quot;Transferido&quot;) Pode levar de 3 a 4 dias úteis para que os fundos sejam creditados no cartão. O sistema de pagamento pode recusar a transferência de fundos para o cartão após a conclusão de transação. Nesse caso, seus fundos serão devolvidos à sua conta no site. Se os detalhes do cartão forem excluídos antes que o aplicativo entre no status &quot;Transferido&quot; os fundos não serão transferidos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">42,49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="The payment system may refuse to transfer funds to the card after the transaction is completed. In this case, your funds will be returned to your account on the site." datatype="html">
-        <source> The payment system may refuse to transfer funds to the card after the transaction is completed. In this case, your funds will be returned to your account on the site. </source>
-        <target> O sistema de pagamento pode recusar a transferência de fundos para o cartão após a conclusão de transação. Nesse caso, seus fundos serão devolvidos à sua conta no site. </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">47,49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="If the card data is deleted before the application transitions to the &apos;Transferred&apos; status, the funds will not be transferred" datatype="html">
-        <source> If the card data is deleted before the application transitions to the &quot;Transferred&quot; status, the funds will not be transferred </source>
-        <target> Se os detalhes do cartão forem excluídos antes que o aplicativo entre no status &quot;Transferido&quot; os fundos não serão transferidos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">50,55</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Select your bank card" datatype="html">
         <source>Select your bank card</source>
         <target>Selecione seu cartão</target>
@@ -2685,32 +2068,6 @@
           <context context-type="linenumber">110,111</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Amount to withdraw" datatype="html">
-        <source>Amount to withdraw</source>
-        <target>Valor à sacar</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">114,115</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="In order to prevent the legalization (laundering) of funds obtained by criminal means, we limit the withdrawal of these funds for 5 days.
-                      Part of the funds that you have deposited into your account has been &apos;frozen&apos;.
-                      It will be available after the freeze time has elapsed." datatype="html">
-        <source> In order to prevent the legalization (laundering) of funds obtained by criminal means, we limit the withdrawal of these funds for 5 days. Part of the funds that you have deposited into your account has been &quot;frozen&quot;. It will be available after the freeze time has elapsed. </source>
-        <target>Para evitar a legalização (lavagem) fundos obridos por meio do crime, limitamos a retirada desses fundos por 5 dias. Parte dos fundos que você depositou em sua conta foi "congelada". Ela estará disponível após o término do tempo de congelamento.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">123,130</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="The nearest date of defrost of a part of the amount" datatype="html">
-        <source>The nearest date of defrost of a part of the amount </source>
-        <target> A data mais próxima para descongelar uma parte do valor </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">130,131</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Next defrost date" datatype="html">
         <source>Next defrost date</source>
         <target>Data do próximo descongelamento</target>
@@ -2733,14 +2090,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
           <context context-type="linenumber">153,154</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8084904071771138990" datatype="html">
-        <source>Commission</source>
-        <target>Comissão</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">161,162</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Captcha" datatype="html">
@@ -2867,14 +2216,6 @@
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Applications for withdrawal of money" datatype="html">
-        <source>Applications for withdrawal of money</source>
-        <target>Solicitação de retirada de dinheiro</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawings-request/withdrawings-request.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Created" datatype="html">
         <source>Created</source>
         <target>Criada</target>
@@ -2899,16 +2240,8 @@
           <context context-type="linenumber">31,32</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Data" datatype="html">
-        <source>Data</source>
-        <target>Data</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawings-request/withdrawings-request.component.html</context>
-          <context context-type="linenumber">51,52</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Can&apos;t verify market app installation" datatype="html">
-        <source>Can&apos;t verify market app installation</source>
+      <trans-unit id="Can't verify market app installation" datatype="html">
+        <source>Can't verify market app installation</source>
         <target>Não foi possível verificar a instalação do market app</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.ts</context>
@@ -2931,38 +2264,6 @@
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Statistics" datatype="html">
-        <source>Statistics</source>
-        <target>Estatisticas</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/common-statistic/common-statistic.component.html</context>
-          <context context-type="linenumber">2,3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Total spent" datatype="html">
-        <source>Total spent</source>
-        <target>Total gasto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/common-statistic/common-statistic.component.html</context>
-          <context context-type="linenumber">5,6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Total Sold" datatype="html">
-        <source>Total Sold</source>
-        <target>Total vendido</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/common-statistic/common-statistic.component.html</context>
-          <context context-type="linenumber">15,16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Your commission" datatype="html">
-        <source>Your commission</source>
-        <target>Sua comissão</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/common-statistic/common-statistic.component.html</context>
-          <context context-type="linenumber">21,22</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Attention, you cannot sell!" datatype="html">
         <source>Attention, you cannot sell!</source>
         <target>Atenção, você não pode vender!</target>
@@ -2979,15 +2280,6 @@
           <context context-type="linenumber">7,9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3514793754270950343" datatype="html">
-        <source>Install MarketApp Client</source>
-        <target>Instalar MarketApp Client</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">13,14</context>
-        </context-group>
-        <note priority="1" from="description">install</note>
-      </trans-unit>
       <trans-unit id="Install" datatype="html">
         <source>Install</source>
         <target>Instalar</target>
@@ -2998,14 +2290,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">28,29</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Verify" datatype="html">
-        <source>Verify</source>
-        <target>Verificar</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">17,18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="or" datatype="html">
@@ -3056,78 +2340,6 @@
           <context context-type="linenumber">41,44</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Last items on sale" datatype="html">
-        <source>Last items on sale</source>
-        <target>Últimos itens à venda</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">93,94</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Last site operations" datatype="html">
-        <source>Last site operations</source>
-        <target>Operações recentes no site</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">99,100</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="All history" datatype="html">
-        <source>All history</source>
-        <target>Todo o histórico</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">106,107</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="You havent made any transactions yet" datatype="html">
-        <source>You havent made any transactions yet</source>
-        <target>Você ainda não fez nenhuma transação</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">108,111</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Can&apos;t verify installation extension" datatype="html">
-        <source>Can&apos;t verify installation extension</source>
-        <target>Não é possível verificar a extensão</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">89</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Extension installed and running" datatype="html">
-        <source>Extension installed and running</source>
-        <target>Extensão instalada e em execução</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">97</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Extension validation error" datatype="html">
-        <source>Extension validation error</source>
-        <target>Erro de verificação de extensão</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">99</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2080130808358830369" datatype="html">
-        <source>Active sales</source>
-        <target>Vendas ativas</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/give-items/give-items.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Items that are awaiting confirmation of receipt after purchase will be displayed here" datatype="html">
-        <source> Items that are awaiting confirmation of receipt after purchase will be displayed here </source>
-        <target> Os itens que aguardam confirmação de recebimento após a compra serão exibidos aqui. </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/give-items/give-items.component.html</context>
-          <context context-type="linenumber">8,10</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Add item" datatype="html">
         <source>Add item</source>
         <target>Adicionar item</target>
@@ -3136,52 +2348,12 @@
           <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Total for sale:" datatype="html">
-        <source>Total for sale:</source>
-        <target>Total à venda: </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/last-sale-items/last-sale-items.component.html</context>
-          <context context-type="linenumber">35,36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="No items on sale yet" datatype="html">
-        <source>No items on sale yet</source>
-        <target>Nenhum item à venda</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/last-sale-items/last-sale-items.component.html</context>
-          <context context-type="linenumber">43,44</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Active purchases" datatype="html">
         <source>Active purchases</source>
         <target>Compras ativas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/take-items/take-items.component.html</context>
           <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Items that are waiting for confirmation for sale will be displayed here when a buyer appeared on them" datatype="html">
-        <source>Items that are waiting for confirmation for sale will be displayed here when a buyer appeared on them</source>
-        <target>Os itens que aguardam confirmação de venda serão exibidos aqui quando um comprador aparecer neles </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/take-items/take-items.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Sale on the site is not instant. The buyer&apos;s money will be blocked for 10 minutes, after which you must transfer the item to the user." datatype="html">
-        <source>Sale on the site is not instant. The buyer&apos;s money will be blocked for 10 minutes, after which you must transfer the item to the user.</source>
-        <target>A venda no site não é instantânea. O dinheiro do comprador será bloqueado por 10 minutos, após o qual você deverá transferir as mercadorias para o usuário.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/take-items/take-items.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="If an exchange is created but you do not transfer it, you may be awarded demerit points. If you reject too many trades, the site will temporarily limit your ability to sell for your account." datatype="html">
-        <source>If an exchange is created but you do not transfer it, you may be awarded demerit points. If you reject too many trades, the site will temporarily limit your ability to sell for your account.</source>
-        <target>Se uma troca for criada, mas você não a transferiu, você poderá receber pontos de demérito. Se você recusar muitas negociações, o site limitará temporariamente sua capacidade de vender para sua conta.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/take-items/take-items.component.html</context>
-          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="187187500641108332" datatype="html">
@@ -3239,40 +2411,12 @@
           <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6367751413467188072" datatype="html">
-        <source>Market</source>
-        <target>Mercado</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/history/components/history-row/history-row.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/history/components/history-row/history-row.component.html</context>
-          <context context-type="linenumber">61</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/history/components/history-row/history-row.component.html</context>
-          <context context-type="linenumber">146</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/history/components/history-row/history-row.component.html</context>
-          <context context-type="linenumber">168</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="History of your transactions on the platform" datatype="html">
         <source>History of your transactions on the platform</source>
         <target>Histórico de suas transações na plataforma</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/history/history.component.html</context>
           <context context-type="linenumber">4,5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="739880801667335279" datatype="html">
-        <source>Dates</source>
-        <target>Datas</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/history/history.component.html</context>
-          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Apply" datatype="html">
@@ -3312,8 +2456,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="You are currently not tracking any item, you can subscribe to a price change on the item page" datatype="html">
-        <source>You are currently not tracking any item, you can subscribe to a price change on the item page <x id="START_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;app-svg [name]=&quot;&apos;helper&apos;&quot; [width]=&quot;24&quot; [height]=&quot;93&quot;&gt;"/><x id="CLOSE_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;/d"/></source>
-        <target>Você não está rastreando nenhum item no momento, você pode assinar as alterações de preço na página do item.<x id="START_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;app-svg [name]=&quot;&apos;helper&apos;&quot; [width]=&quot;24&quot; [height]=&quot;93&quot;&gt;"/><x id="CLOSE_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;/d"/></target>
+        <source>You are currently not tracking any item, you can subscribe to a price change on the item page <x id="START_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;app-svg [name]=&quot;'helper'&quot; [width]=&quot;24&quot; [height]=&quot;93&quot;&gt;"/><x id="CLOSE_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;/d"/></source>
+        <target>Você não está rastreando nenhum item no momento, você pode assinar as alterações de preço na página do item.<x id="START_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;app-svg [name]=&quot;'helper'&quot; [width]=&quot;24&quot; [height]=&quot;93&quot;&gt;"/><x id="CLOSE_TAG_APP_SVG" ctype="x-app_svg" equiv-text="&lt;/d"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/look-at-items/look-at-items.component.html</context>
           <context context-type="linenumber">26,29</context>
@@ -3348,8 +2492,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="Last updated" datatype="html">
-        <source>Last updated <x id="INTERPOLATION" equiv-text="{{(refreshInfo! * 1000 | date: &apos;shortDate&apos;)}}"/> at <x id="INTERPOLATION_1" equiv-text="{{(refreshInfo! * 1000 | date: &apos;shortTime&apos;)}}"/> </source>
-        <target>Última atualização em <x id="INTERPOLATION" equiv-text="{{(refreshInfo! * 1000 | date: &apos;shortDate&apos;)}}"/> às <x id="INTERPOLATION_1" equiv-text="{{(refreshInfo! * 1000 | date: &apos;shortTime&apos;)}}"/> </target>
+        <source>Last updated <x id="INTERPOLATION" equiv-text="{{(refreshInfo! * 1000 | date: 'shortDate')}}"/> at <x id="INTERPOLATION_1" equiv-text="{{(refreshInfo! * 1000 | date: 'shortTime')}}"/> </source>
+        <target>Última atualização em <x id="INTERPOLATION" equiv-text="{{(refreshInfo! * 1000 | date: 'shortDate')}}"/> às <x id="INTERPOLATION_1" equiv-text="{{(refreshInfo! * 1000 | date: 'shortTime')}}"/> </target>
       </trans-unit>
       <trans-unit id="Total frozen" datatype="html">
         <source>Total frozen:</source>
@@ -3451,14 +2595,6 @@
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Update Inventory" datatype="html">
-        <source>Update Inventory</source>
-        <target>Atualizar inventário</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="You have no items for sale" datatype="html">
         <source>You have no items for sale</source>
         <target>Você não tem itens à venda</target>
@@ -3467,36 +2603,12 @@
           <context context-type="linenumber">22,23</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1576265228050116516" datatype="html">
-        <source>For sale</source>
-        <target>À venda</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items.component.html</context>
-          <context context-type="linenumber">30,31</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Total amount" datatype="html">
         <source>Total amount</source>
         <target>Valor total</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items.component.html</context>
           <context context-type="linenumber">42,43</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="By putting an item up for sale, you accept the terms of the" datatype="html">
-        <source>By putting an item up for sale, you accept the terms of the </source>
-        <target>Ao colocar um item à venda, você aceita os termos </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items.component.html</context>
-          <context context-type="linenumber">51,53</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="contract" datatype="html">
-        <source>contract</source>
-        <target>do contrato </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items.component.html</context>
-          <context context-type="linenumber">51,53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="WhiteListIp" datatype="html">
@@ -3525,22 +2637,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/standalone/white-list/white-list.component.ts</context>
           <context context-type="linenumber">72</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Sell for" datatype="html">
-        <source>Sell for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="onPrice: changesPrice }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span"/></source>
-        <target>Vender por <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="onPrice: changesPrice }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-total/sell-items-total.component.html</context>
-          <context context-type="linenumber">32,33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Items for sale are not selected, select them on the left side" datatype="html">
-        <source>Items for sale are not selected, select them on the left side</source>
-        <target>Os itens à venda não estão selecionados, selecione-os à esquerda</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items.component.html</context>
-          <context context-type="linenumber">63,68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Error in update inventory" datatype="html">
@@ -3823,7 +2919,8 @@
       </trans-unit>
       <trans-unit id="ApiImportantDesc" datatype="html">
         <source> Here you can create/re-create a private key for automatic trading, which will be linked to your account. If you do not understand why the key is needed, then please, for your own safety, do not tell it to anyone. In test mode, we launched the sale of an application that allows you to automate trading on our website - <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://bot.csgo.com/home&quot; target=&quot;_blank&quot;&gt;"/>CounterBot<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. By using the API, you agree to the terms of the <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/static/terms&quot;&gt;"/>contract<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, in particular the 4-hour limited warranty. </source>
-        <target>Aqui você pode criar/recriar uma chave privada para negociação automática, que será vinculada à sua conta. Se você não entender por que a chave é necessária, por favor, para sua própria segurança, não diga a ela qualquer um. Em modo de teste, lançamos a venda de um aplicativo que permite automatizar a negociação em nosso site - <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://bot.csgo.com/home&quot; target=&quot;_blank&quot;&gt;"/>CounterBot<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Ao usar a API, você concorda com os termos do <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/static/terms&quot;&gt;"/>contract<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, em particular a garantia limitada de 4 horas </target>        <context-group purpose="location">
+        <target>Aqui você pode criar/recriar uma chave privada para negociação automática, que será vinculada à sua conta. Se você não entender por que a chave é necessária, por favor, para sua própria segurança, não diga a ela qualquer um. Em modo de teste, lançamos a venda de um aplicativo que permite automatizar a negociação em nosso site - <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://bot.csgo.com/home&quot; target=&quot;_blank&quot;&gt;"/>CounterBot<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Ao usar a API, você concorda com os termos do <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/static/terms&quot;&gt;"/>contract<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, em particular a garantia limitada de 4 horas </target>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/api/api/api.component.html</context>
           <context context-type="linenumber">38,43</context>
         </context-group>
@@ -3875,15 +2972,6 @@
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/common/common.component.html</context>
           <context context-type="linenumber">53,55</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="666111552451171297" datatype="html">
-        <source>Api Key</source>
-        <target>Api Key</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/common/common.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-        <note priority="1" from="description">Api key</note>
       </trans-unit>
       <trans-unit id="Update" datatype="html">
         <source>Update</source>
@@ -3974,20 +3062,12 @@
         </context-group>
       </trans-unit>
       <trans-unit id="Remove my notify" datatype="html">
-          <source>Remove my notify</source>
-          <target>Remover minha notificação</target>
-          <context-group purpose="location">
+        <source>Remove my notify</source>
+        <target>Remover minha notificação</target>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
           <context context-type="linenumber">187,189</context>
-          </context-group>
-      </trans-unit>
-      <trans-unit id="Remove my order" datatype="html">
-          <source>Remove my order</source>
-          <target>Remover meu pedido</target>
-          <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
-          <context context-type="linenumber">210,212</context>
-          </context-group>
+        </context-group>
       </trans-unit>
       <trans-unit id="Are you sure you want to remove your order? &lt;br&gt; It will be impossible to undo the action." datatype="html">
         <source>Are you sure you want to remove your order? &lt;br&gt; It will be impossible to undo the action.</source>
@@ -4003,14 +3083,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/pay-password/pay-password.component.html</context>
           <context context-type="linenumber">1,2</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Steam is currently having connection issues!" datatype="html">
-        <source>Steam is currently having connection issues!</source>
-        <target>O Steam está tendo problemas de conexão no momento!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared-components/steam-issue-banner/steam-issue-banner.component.html</context>
-          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Old Password" datatype="html">
@@ -4221,14 +3293,6 @@
           <context context-type="linenumber">33,34</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Every time you sign in to your account, you must enter payment password." datatype="html">
-        <source>Every time you sign in to your account, you must enter payment password.</source>
-        <target>Toda vez que você entrar em sua conta, você deve digitar sua senha de pagamento.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/security.component.html</context>
-          <context context-type="linenumber">35,39</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Permissions granted to third-party sites:" datatype="html">
         <source>Permissions granted to third-party sites:</source>
         <target>Permissões concedidas a sites de terceiros</target>
@@ -4286,23 +3350,11 @@
         </context-group>
       </trans-unit>
       <trans-unit id="Number of items not listed for sale" datatype="html">
-          <source>Number of items not listed for sale: <x id="PH" equiv-text="failedItems"/></source>
-          <target>Número de itens não listados para venda: <x id="PH" equiv-text="failedItems"/></target>
-          <context-group purpose="location">
+        <source>Number of items not listed for sale: <x id="PH" equiv-text="failedItems"/></source>
+        <target>Número de itens não listados para venda: <x id="PH" equiv-text="failedItems"/></target>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-total/sell-items-total.component.ts</context>
           <context context-type="linenumber">74</context>
-          </context-group>
-      </trans-unit>
-      <trans-unit id="Error to get screenshot" datatype="html">
-        <source>Error to get screenshot</source>
-        <target>Erro ao obter captura de tela</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.ts</context>
-          <context context-type="linenumber">238,237</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.ts</context>
-          <context context-type="linenumber">259,258</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Count" datatype="html">
@@ -4321,9 +3373,9 @@
           <context context-type="linenumber">14,15</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Open the authenticator click on the &apos;+&apos; icon and scan the qr code using your phone or tablet." datatype="html">
-        <source>Open the authenticator click on the &quot;+&quot; icon and scan the qr code using your phone or tablet.</source>
-        <target>Abra o autenticador, clique no ícone &quot;+&quot; e escaneie o código qr com seu celular ou tablet.</target>
+      <trans-unit id="Open the authenticator click on the '+' icon and scan the qr code using your phone or tablet." datatype="html">
+        <source>Open the authenticator click on the "+" icon and scan the qr code using your phone or tablet.</source>
+        <target>Abra o autenticador, clique no ícone "+" e escaneie o código qr com seu celular ou tablet.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/two-factor-enable-image/two-factor-enable-image.component.html</context>
           <context context-type="linenumber">15,17</context>
@@ -4498,22 +3550,6 @@
           <context context-type="linenumber">6,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="We often ask questions" datatype="html">
-        <source>We often ask questions</source>
-        <target>FAQ</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-list/support-list.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="New replies from technical support" datatype="html">
-        <source>New replies from technical support</source>
-        <target>Nova resposta do suporte técnico</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-list/support-list.component.html</context>
-          <context context-type="linenumber">11,13</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Open tickets" datatype="html">
         <source>Open tickets</source>
         <target>Tickets em aberto</target>
@@ -4528,22 +3564,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-list/support-list.component.html</context>
           <context context-type="linenumber">21,22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="FAQ section" datatype="html">
-        <source>FAQ section</source>
-        <target>FAQ</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="perhaps there you will find the answer to your question much faster" datatype="html">
-        <source>perhaps there you will find the answer to your question much faster</source>
-        <target>Talvez lá você encontre a resposta para sua pergunta muito mais rápido.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
-          <context context-type="linenumber">7,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Choose one of the reasons:" datatype="html">
@@ -4568,18 +3588,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
           <context context-type="linenumber">26,29</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3903798265121704662" datatype="html">
-        <source>Enter your message</source>
-        <target>Digite sua mensagem</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
-          <context context-type="linenumber">29</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-ticket/support-ticket.component.html</context>
-          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="I read" datatype="html">
@@ -4612,14 +3620,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
           <context context-type="linenumber">45,47</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7563035552061651664" datatype="html">
-        <source> Send </source>
-        <target> Enviar </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-ticket/support-ticket.component.html</context>
-          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Search history" datatype="html">
@@ -4670,18 +3670,6 @@
           <context context-type="linenumber">2,4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2097260869624167168" datatype="html">
-        <source>Link to exchange (trade-url)</source>
-        <target>Link de troca</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link/exchange-link.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link/exchange-link.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Where can I find the exchange link?" datatype="html">
         <source>Where can I find the exchange link</source>
         <target>Onde encontro o link de troca?</target>
@@ -4714,21 +3702,9 @@
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="There is a buyer" datatype="html">
-        <source>There is a buyer!</source>
-        <target>Tem um comprador!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared-simple-components/scroll-pagination/scroll-pagination.component.html</context>
-          <context context-type="linenumber">9,10</context>
-        </context-group>
-      </trans-unit>
-        <trans-unit id="was not transferred to the buyer, the trade was canceled" datatype="html">
-            <source><x id="PH" equiv-text="item.market_hash_name"/> was not transferred to the buyer, the trade was canceled</source>
-            <target><x id="PH" equiv-text="item.market_hash_name"/> não foi repassado ao comprador, a negociação foi cancelada</target>
-        </trans-unit>
-      <trans-unit id="Create offer" datatype="html">
-        <source> Create offer </source>
-        <target> Criar oferta </target>
+      <trans-unit id="was not transferred to the buyer, the trade was canceled" datatype="html">
+        <source><x id="PH" equiv-text="item.market_hash_name"/> was not transferred to the buyer, the trade was canceled</source>
+        <target><x id="PH" equiv-text="item.market_hash_name"/> não foi repassado ao comprador, a negociação foi cancelada</target>
       </trans-unit>
       <trans-unit id="All items has been send" datatype="html">
         <source>All items has been send</source>
@@ -4738,20 +3714,12 @@
           <context context-type="linenumber">179</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Search history" datatype="html">
-            <source>Search history</source>
-            <target>Histórico de busca</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/shared-components/search/search.component.html</context>
-                <context context-type="linenumber">9</context>
-            </context-group>
-        </trans-unit>
-      <trans-unit id="Some error happend" datatype="html">
-        <source>Some error happend</source>
-        <target>Erro</target>
+      <trans-unit id="Search history" datatype="html">
+        <source>Search history</source>
+        <target>Histórico de busca</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared-simple-components/scroll-pagination/scroll-pagination.component.ts</context>
-          <context context-type="linenumber">181</context>
+          <context context-type="sourcefile">src/app/modules/shared-components/search/search.component.html</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Page not found" datatype="html">
@@ -4762,66 +3730,20 @@
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Try repeat switching on sales after" datatype="html">
-        <source>Try repeat switching on sales after <x id="PH" equiv-text="delayParams.delay / 1000"/> seconds</source>
-        <target>Tente reativar as vendas após <x id="PH" equiv-text="delayParams.delay / 1000"/> segundos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/auth.service.ts</context>
-          <context context-type="linenumber">116</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Switching on sales after" datatype="html">
-        <source>Switching on sales after <x id="PH" equiv-text="delayParams.delay / 1000"/> seconds</source>
-        <target>Ativar vendas após <x id="PH" equiv-text="delayParams.delay / 1000"/> segundos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/auth.service.ts</context>
-          <context context-type="linenumber">116</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Error when starting sales!" datatype="html">
-        <source>Error when starting sales!</source>
-        <target>Erro ao iniciar as vendas!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/auth.service.ts</context>
-          <context context-type="linenumber">145</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="is ready to receive in" datatype="html">
-        <source><x id="PH" equiv-text="item.market_hash_name"/> is ready to receive in (&lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;)</source>
-        <target><x id="PH" equiv-text="item.market_hash_name"/> pronto para receber (&lt;a href=&apos;/usercab&apos;&gt;painel&lt;/a&gt;)</target>
+        <source><x id="PH" equiv-text="item.market_hash_name"/> is ready to receive in (&lt;a href='/usercab'&gt;dashboard&lt;/a&gt;)</source>
+        <target><x id="PH" equiv-text="item.market_hash_name"/> pronto para receber (&lt;a href='/usercab'&gt;painel&lt;/a&gt;)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/centrifuge.service.ts</context>
           <context context-type="linenumber">170</context>
         </context-group>
       </trans-unit>
       <trans-unit id="item is now available for x" datatype="html">
-        <source><x id="PH" equiv-text="item.market_name"/> is now available for <x id="PH_1" equiv-text="item.price"/><x id="PH_2" equiv-text="item.currency"/> (&lt;a href=&apos;<x id="PH_3" equiv-text="this.helper.router.createUrlTree(
-                [
-                  &apos;/&apos;,
-                  item?.seo?.category,
-                  item?.seo?.type,
-                  item.market_hash_name,
-                ].filter((n) =&gt; n),
-              )"/>&apos;&gt;<x id="PH_4" equiv-text="item.market_name"/>&lt;/a&gt;)</source>
-        <target><x id="PH" equiv-text="item.market_name"/> já está disponível para <x id="PH_1" equiv-text="item.price"/><x id="PH_2" equiv-text="item.currency"/> (&lt;a href=&apos;<x id="PH_3" equiv-text="this.helper.router.createUrlTree(
-          [
-            &apos;/&apos;,
-            item?.seo?.category,
-            item?.seo?.type,
-            item.market_hash_name,
-          ].filter((n) =&gt; n),
-        )"/>&apos;&gt;<x id="PH_4" equiv-text="item.market_name"/>&lt;/a&gt;)</target>
+        <source><x id="PH" equiv-text="item.market_name"/> is now available for <x id="PH_1" equiv-text="item.price"/><x id="PH_2" equiv-text="item.currency"/> (&lt;a href='<x id="PH_3" equiv-text="this.helper.router.createUrlTree(                 [                   '/',                   item?.seo?.category,                   item?.seo?.type,                   item.market_hash_name,                 ].filter((n) =&gt; n),               )"/>'&gt;<x id="PH_4" equiv-text="item.market_name"/>&lt;/a&gt;)</source>
+        <target><x id="PH" equiv-text="item.market_name"/> já está disponível para <x id="PH_1" equiv-text="item.price"/><x id="PH_2" equiv-text="item.currency"/> (&lt;a href='<x id="PH_3" equiv-text="this.helper.router.createUrlTree(           [             '/',             item?.seo?.category,             item?.seo?.type,             item.market_hash_name,           ].filter((n) =&gt; n),         )"/>'&gt;<x id="PH_4" equiv-text="item.market_name"/>&lt;/a&gt;)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/centrifuge.service.ts</context>
           <context context-type="linenumber">273,282</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7710768963392763197" datatype="html">
-        <source>Purchased item <x id="PH" equiv-text="item.market_hash_name"/> is ready to receive. Pick it up in &lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;</source>
-        <target>Item comprado<x id="PH" equiv-text="item.market_hash_name"/> pronto para receber. Pegue-o em  &lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/centrifuge.service.ts</context>
-          <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Extension not found" datatype="html">
@@ -4830,14 +3752,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/check-extension.service.ts</context>
           <context context-type="linenumber">77</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Chrome extension not supporting" datatype="html">
-        <source>Chrome extension not supporting</source>
-        <target>A extensão não é compatível</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/check-extension.service.ts</context>
-          <context context-type="linenumber">601</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Required" datatype="html">
@@ -5057,12 +3971,12 @@
         </context-group>
       </trans-unit>
       <trans-unit id="Most advanced trading tools" datatype="html">
-          <source> Most advanced trading tools </source>
-          <target>Ferramentas de negociação mais avançadas</target>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/modules/pages/landing-page/components/landing-page/landing-page.component.html</context>
-            <context context-type="linenumber">242,244</context>
-          </context-group>
+        <source> Most advanced trading tools </source>
+        <target>Ferramentas de negociação mais avançadas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/pages/landing-page/components/landing-page/landing-page.component.html</context>
+          <context context-type="linenumber">242,244</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="Search gun by stickers" datatype="html">
         <source>Search gun by stickers</source>
@@ -5188,14 +4102,6 @@
           <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Error in get faq description" datatype="html">
-        <source>Error in get faq description</source>
-        <target>Erro na descrição do get faq</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/faq/faq.component.ts</context>
-          <context context-type="linenumber">44,43</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Nothing found" datatype="html">
         <source>Nothing found</source>
         <target>Nada encontrado</target>
@@ -5232,36 +4138,12 @@
           <context context-type="linenumber">297,296</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="This item ready for buy. Wait for the seller." datatype="html">
-        <source>This item ready for buy. Wait for the seller.</source>
-        <target>Este item está pronto para compra. Espere pelo vendedor.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.ts</context>
-          <context context-type="linenumber">560,559</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="In order to prevent the legalization (laundering) of funds obtained by criminal means, we limit the withdrawal of these funds for 5 days. Part of the funds that you have deposited into your account has been &apos;frozen&apos;. It will be available after the freeze time has elapsed." datatype="html">
-        <source> In order to prevent the legalization (laundering) of funds obtained by criminal means, we limit the withdrawal of these funds for 5 days. Part of the funds that you have deposited into your account has been &quot;frozen&quot;. It will be available after the freeze time has elapsed. </source>
-        <target>A fim de evitar a legalização (Lavagem) de fundos obtidos por meios criminosos, limitamos a retirada desses fundos por 5 dias. Parte dos fundos que depositou na sua conta foi 'congelada'. Estará disponível após o tempo de congelamento ter decorrido</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">100,105</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Date" datatype="html">
         <source> Date </source>
         <target>Data</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawings-request/withdrawings-request.component.html</context>
           <context context-type="linenumber">53</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="After the transfer of our application for withdrawal (the transition of the application to the status &apos;Transferred&apos;), it may take 3-4 business days before the funds are credited to the card The payment system may refuse to transfer funds to the card after the transaction is completed. In this case, your funds will be returned to your account on the site. If the card data is deleted before the application transitions to the &apos;Transferred&apos; status, the funds will not be transferred" datatype="html">
-        <source> After the transfer of our application for withdrawal (the transition of the application to the status &quot;Transferred&quot;), it may take 3-4 business days before the funds are credited to the card The payment system may refuse to transfer funds to the card after the transaction is completed. In this case, your funds will be returned to your account on the site. If the card data is deleted before the application transitions to the &quot;Transferred&quot; status, the funds will not be transferred </source>
-        <target>Após a transferência do nosso pedido de levantamento (a transição do pedido para o estatuto 'Transferido'), pode demorar 3-4 dias úteis até que os fundos sejam creditados no cartão o sistema de pagamento pode recusar a transferência de fundos para o cartão após a conclusão da transação. Nesse caso, seus fundos serão devolvidos à sua conta no site. Se os dados do cartão forem eliminados antes da transição da candidatura para o estatuto de' Transferido', os fundos não serão transferidos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawing/withdrawing.component.html</context>
-          <context context-type="linenumber">19,24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Price" datatype="html">
@@ -5312,14 +4194,6 @@
           <context context-type="linenumber">76,77</context>
         </context-group>
         <note priority="1" from="description">Chat</note>
-      </trans-unit>
-      <trans-unit id="Update Image" datatype="html">
-        <source>Update Image</source>
-        <target>Atualizar Imagem</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.html</context>
-          <context context-type="linenumber">104,106</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="Close ticket" datatype="html">
         <source>Close ticket</source>
@@ -5445,14 +4319,6 @@
           <context context-type="linenumber">18,19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="On sale length" datatype="html">
-        <source>On sale: <x id="INTERPOLATION" equiv-text="{{ sellItems.length }}"/></source>
-        <target>À venda: <x id="INTERPOLATION" equiv-text="{{ sellItems.length }}"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-total/sell-items-total.component.html</context>
-          <context context-type="linenumber">3,4</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Awaiting confirmation" datatype="html">
         <source>Awaiting confirmation</source>
         <target>Aguardando confirmação</target>
@@ -5477,14 +4343,14 @@
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Title Terms" datatype="html">
-            <source>Terms</source>
-            <target>Condicao</target>
-        </trans-unit>
-        <trans-unit id="Description Terms" datatype="html">
-            <source>Terms</source>
-            <target>Condicao</target>
-        </trans-unit>
+      <trans-unit id="Title Terms" datatype="html">
+        <source>Terms</source>
+        <target>Condicao</target>
+      </trans-unit>
+      <trans-unit id="Description Terms" datatype="html">
+        <source>Terms</source>
+        <target>Condicao</target>
+      </trans-unit>
       <trans-unit id="Change nickname" datatype="html">
         <source>Change nickname</source>
         <target>Alterar apelido</target>
@@ -5507,14 +4373,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/chat/chat/chat.component.ts</context>
           <context context-type="linenumber">275,274</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="©2021 market.csgo.com" datatype="html">
-        <source>©2021 market.csgo.com</source>
-        <target>©2021 market.csgo.com</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header-tablet/header-tablet.component.html</context>
-          <context context-type="linenumber">231,232</context>
         </context-group>
       </trans-unit>
       <trans-unit id="For sale" datatype="html">
@@ -5606,22 +4464,6 @@
           <context context-type="linenumber">87,86</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5317125630568330230" datatype="html">
-        <source><x id="PH" equiv-text="item.market_hash_name"/> is ready to receive in (&lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;)</source>
-        <target><x id="PH" equiv-text="item.market_hash_name"/> está pronto para receber em (&lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/centrifuge.service.ts</context>
-          <context context-type="linenumber">170</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Purchased item is ready to receive. Pick it up in &lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;" datatype="html">
-        <source>Purchased item <x id="PH" equiv-text="item.market_hash_name"/> is ready to receive. Pick it up in &lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;</source>
-        <target>Compra <x id="PH" equiv-text="item.market_hash_name"/> está pronto para receber. Pegue-o em  &lt;a href=&apos;/usercab&apos;&gt;dashboard&lt;/a&gt;</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/centrifuge.service.ts</context>
-          <context context-type="linenumber">192</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="About platform" datatype="html">
         <source>About platform</source>
         <target>Sobre a plataforma</target>
@@ -5630,25 +4472,13 @@
           <context context-type="linenumber">216,217</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Title About platform" datatype="html">
-            <source>About platform</source>
-            <target>Sobre a plataforma</target>
-        </trans-unit>
-        <trans-unit id="Description About platform" datatype="html">
-            <source>About platform</source>
-            <target>Sobre a plataforma</target>
-        </trans-unit>
-      <trans-unit id="items for sale" datatype="html">
-        <source><x id="PH" equiv-text="result?.length &amp;&amp; result?.length &lt;= 1
-                      ? &apos;The item is for sale.&apos;
-                      : &apos;The items are for sale&apos;"/></source>
-        <target><x id="PH" equiv-text="result?.length &amp;&amp; result?.length &lt;= 1
-                      ? &apos;O artigo está à venda.&apos;
-                      : &apos;Os artigos estão à venda.&apos;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-total/sell-items-total.component.ts</context>
-          <context context-type="linenumber">54,53</context>
-        </context-group>
+      <trans-unit id="Title About platform" datatype="html">
+        <source>About platform</source>
+        <target>Sobre a plataforma</target>
+      </trans-unit>
+      <trans-unit id="Description About platform" datatype="html">
+        <source>About platform</source>
+        <target>Sobre a plataforma</target>
       </trans-unit>
       <trans-unit id="Language settings" datatype="html">
         <source>Language settings</source>
@@ -5715,7 +4545,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="To top up your personal account, you need to log in on the website and go to the account replenishment page. After selecting the deposit amount, you will be redirected" datatype="html">
-        <source>To top up your personal account, you need to log in on the website and go to the account replenishment page. After selecting the deposit amount, you will be redirected to the payment system&apos;s website to pay the bill.</source>
+        <source>To top up your personal account, you need to log in on the website and go to the account replenishment page. After selecting the deposit amount, you will be redirected to the payment system's website to pay the bill.</source>
         <target>Para recarregar sua conta pessoal, você precisa fazer login no site e ir para a página de reabastecimento da conta. Depois de selecionar o valor do depósito, você será redirecionado para o site do sistema de pagamento para pagar a conta.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/content-pages/components/content-page-information/content-page-information.component.html</context>
@@ -5786,28 +4616,12 @@
           <context context-type="linenumber">66,67</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Please turn on sales!" datatype="html">
-        <source>Please turn on sales!</source>
-        <target>Por favor, ligue as vendas!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/last-sale-items/last-sale-items.component.ts</context>
-          <context context-type="linenumber">52</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="These rules are clarifications and do not replace the terms of the" datatype="html">
         <source>These rules are clarifications and do not replace the terms of the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>contract<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
         <target>Estas regras são esclarecimentos e não substituem os Termos do <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>contrato<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/content-pages/components/content-page-information/content-page-information.component.html</context>
           <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="contacts" datatype="html">
-        <source>contacts</source>
-        <target>contacto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/content-pages/components/content-page-contacts/content-page-contacts.component.html</context>
-          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Contacts" datatype="html">
@@ -5826,30 +4640,6 @@
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Attention, you can&apos;t sell!" datatype="html">
-        <source>Attention, you can&apos;t sell!</source>
-        <target>Atenção, você não pode vender!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/attention-blocks/attention-blocks.component.html</context>
-          <context context-type="linenumber">5,6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="To sell from a mobile device, you need to install the &apos;MarketApp Client&apos; application on" datatype="html">
-        <source>To sell from a mobile device, you need to install the &quot;MarketApp Client&quot; application on <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;link-context&quot;&gt;"/>your computer and keep it turned on<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Para vender a partir de um dispositivo móvel, você precisa instalar o aplicativo cliente &quot;MarketApp Client&quot; em <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;link-context&quot;&gt;"/>seu computador e mantê-lo ligado em seu computador e mantê-lo ligado <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/attention-blocks/attention-blocks.component.html</context>
-          <context context-type="linenumber">6,7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="How to trade from your phone" datatype="html">
-        <source>How to trade from your phone</source>
-        <target>Como negociar a partir do seu telefone</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/attention-blocks/attention-blocks.component.html</context>
-          <context context-type="linenumber">12,15</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Sticker search" datatype="html">
         <source>Sticker search</source>
         <target>Pesquisa de autocolantes</target>
@@ -5864,14 +4654,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/faq/faq.component.html</context>
           <context context-type="linenumber">93,94</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Back to content pages" datatype="html">
-        <source>Back to content pages</source>
-        <target>Voltar para páginas de conteúdo</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/content-pages/content-pages.component.html</context>
-          <context context-type="linenumber">50,52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Go to the main page" datatype="html">
@@ -5896,14 +4678,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/balance.component.html</context>
           <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Put up for sale for" datatype="html">
-        <source>Put up for sale for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="onPrice: changesPrice }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span"/></source>
-        <target>Acondicionados para Venda por <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="onPrice: changesPrice }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-total/sell-items-total.component.html</context>
-          <context context-type="linenumber">32,34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Price and volume chart" datatype="html">
@@ -5966,30 +4740,6 @@
           <context context-type="linenumber">6,9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Back to menu" datatype="html">
-        <source>Back to menu</source>
-        <target>Voltar ao menu</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/content-pages/content-pages.component.html</context>
-          <context context-type="linenumber">50,51</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="through site" datatype="html">
-        <source>through site</source>
-        <target>através do site</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">29,31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="through client" datatype="html">
-        <source>through client</source>
-        <target>através do cliente</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
-          <context context-type="linenumber">41,43</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Before creating a new query, we recommend our users to familiarize themselves with our FAQ section perhaps there you will find the answer to your question much faster" datatype="html">
         <source>Before creating a new query, we recommend our users to familiarize themselves with our <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/faq&quot; class=&quot;opacity-hover&quot;&gt;"/>FAQ section<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, perhaps there you will find the answer to your question much faster </source>
         <target>Antes de criar uma nova consulta, recomendamos aos nossos utilizadores que se familiarizem com o nosso <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/faq&quot; class=&quot;opacity-hover&quot;&gt;"/>FAQ seccao<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, talvez lá você encontre a resposta para sua pergunta muito mais rápido</target>
@@ -6026,14 +4776,14 @@
           <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="Title HowToSale" datatype="html">
-            <source>How To Sale</source>
-            <target>Como Vender</target>
-        </trans-unit>
-        <trans-unit id="Description HowToSale" datatype="html">
-            <source>How To Sale</source>
-            <target>Como Vender</target>
-        </trans-unit>
+      <trans-unit id="Title HowToSale" datatype="html">
+        <source>How To Sale</source>
+        <target>Como Vender</target>
+      </trans-unit>
+      <trans-unit id="Description HowToSale" datatype="html">
+        <source>How To Sale</source>
+        <target>Como Vender</target>
+      </trans-unit>
       <trans-unit id="ContactsSupportText" datatype="html">
         <source>To obtain help, use our <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot;&gt;"/>tech support<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> service.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Or by email: <x id="START_LINK_1" equiv-text="&lt;a href=&quot;mailto:support@csgo.com&quot;&gt;"/>support@csgo.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Please note that questions by email are considered longer than through the technical support service.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We are a registered legal entity, so you can safely trust us with your belongings.</source>
         <target>Para obter ajuda, utilize o nosso serviço <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot;&gt;"/>suporte técnico<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> servico.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> ou por e-mail: <x id="START_LINK_1" equiv-text="&lt;a href=&quot;mailto:support@csgo.com&quot;&gt;"/>support@csgo.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Por favor, note que as perguntas por e-mail são consideradas mais longas do que através do serviço de suporte técnico.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> somos uma entidade legal registada, pelo que pode confiar-nos com segurança os seus pertences.</target>
@@ -6064,28 +4814,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
           <context context-type="linenumber">53,55</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="items for sale plural" datatype="html">
-        <source>
-          <x id="PH" equiv-text="this.i18nPluralPipe.transform(
-            result?.length,
-            {
-            &apos;=1&apos;: &apos;The item is for sale.&apos;,
-            &apos;other&apos;: &apos;The items are for sale&apos;,
-            })"/>
-        </source>
-        <target>
-          <x id="PH" equiv-text="this.i18nPluralPipe.transform(
-            result?.length,
-            {
-            &apos;=1&apos;: &apos;O artigo está à venda.&apos;,
-            &apos;other&apos;: &apos;Os itens estão à venda.&apos;,
-            })"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-total/sell-items-total.component.ts</context>
-          <context context-type="linenumber">93,92</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Old Market" datatype="html">
@@ -6152,22 +4880,14 @@
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Market Commission" datatype="html">
-        <source>Market Commission</source>
-        <target>Comissão Do Mercado</target>
+      <trans-unit id="After the item is bought, you will have 10 minutes to transfer it." datatype="html">
+        <source>After the item is bought, you will have <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>10 minutes<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to transfer it.</source>
+        <target>Após a compra do item, você terá <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>10 minutos<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> para transferi-lo.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/usercab/components/dashboard/common-statistic/common-statistic.component.html</context>
-          <context context-type="linenumber">22,23</context>
+          <context context-type="sourcefile">src/app/modules/shared-components/banner-closer/banner-closer.component.html</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-        <trans-unit id="After the item is bought, you will have 10 minutes to transfer it." datatype="html">
-            <source>After the item is bought, you will have <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>10 minutes<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to transfer it.</source>
-            <target>Após a compra do item, você terá <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>10 minutos<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> para transferi-lo.</target>
-            <context-group purpose="location">
-                <context context-type="sourcefile">src/app/modules/shared-components/banner-closer/banner-closer.component.html</context>
-                <context context-type="linenumber">6</context>
-            </context-group>
-        </trans-unit>
       <trans-unit id="Sell items rules title" datatype="html">
         <source>Please pay attention to the rules for selling items:</source>
         <target>Preste atenção às regras para venda de itens:</target>
@@ -6192,36 +4912,12 @@
           <context context-type="linenumber">3,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Don&apos;t show again" datatype="html">
-        <source>Don&apos;t show again</source>
+      <trans-unit id="Don't show again" datatype="html">
+        <source>Don't show again</source>
         <target>Não mostrar novamente</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-rules/sell-items-rules.component.html</context>
           <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="To obtain help, use our tech support service" datatype="html">
-        <source> To obtain help, use our <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot;&gt;"/>tech support<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> service. </source>
-        <target> Para obter ajuda, utilize o nosso <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot;&gt;"/>uporte técnico<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> servico.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/content-pages/components/content-page-contacts/content-page-contacts.component.html</context>
-          <context context-type="linenumber">4,6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Email support@dota2.net . Please note – questions by email take longer to review than through the tech support service." datatype="html">
-        <source> Email: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto:support@dota2.net&quot;&gt;"/>support@dota2.net<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Please note – questions by email take longer to review than through the tech support service. </source>
-        <target> Email: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto:support@dota2.net&quot;&gt;"/>support@dota2.net<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Por favor, note – perguntas por e-mail demorar mais tempo para rever do que através do serviço de suporte técnico.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/content-pages/components/content-page-contacts/content-page-contacts.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Cooperation: cooperation@csgo.com" datatype="html">
-        <source>Cooperation: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto:cooperation@csgo.com&quot;&gt;"/>cooperation@csgo.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target>Cooperacao: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto:cooperation@csgo.com&quot;&gt;"/>cooperation@csgo.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/pages/content-pages/components/content-page-contacts/content-page-contacts.component.html</context>
-          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Auto Purchase Requests" datatype="html">
@@ -6254,14 +4950,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared-components/notice-block/notice-block.component.html</context>
           <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="WithdrawInNotification" datatype="html">
-        <source>Withdraw</source>
-        <target>Retirada</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared-components/notice-block/notice-block.component.html</context>
-          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Add another card" datatype="html">
@@ -6324,14 +5012,6 @@
         <source>Are you sure?</source>
         <target>Vocês têm certeza?</target>
       </trans-unit>
-      <trans-unit id="The purchase on the site is not instant. Your money will be blocked for 10 minutes, after which you will either receive your item or get your money back." datatype="html">
-        <source> The purchase on the site is not instant. Your money will be blocked for 10 minutes, after which you will either receive your item or get your money back. </source>
-        <target>A compra no site não é instantânea. Seu dinheiro será bloqueado por 10 minutos, após o qual você receberá seu item ou receberá seu dinheiro de volta.</target>
-      </trans-unit>
-      <trans-unit id="If an exchange is created, but you do not accept it, you may be awarded penalty points. If you reject too many exchanges, the site will temporarily restrict your ability to purchase for your account." datatype="html">
-        <source> If an exchange is created, but you do not accept it, you may be awarded penalty points. If you reject too many exchanges, the site will temporarily restrict your ability to purchase for your account. </source>
-        <target>Se uma troca for criada, mas você não a aceitar, poderá receber pontos de penalidade. Se rejeitar demasiadas trocas, o site restringirá temporariamente a sua capacidade de compra para a sua conta.</target>
-      </trans-unit>
       <trans-unit id="I agree to the terms of the" datatype="html">
         <source>I agree to the terms of the </source>
         <target>Concordo com os Termos do </target>
@@ -6340,34 +5020,34 @@
         <source>contract</source>
         <target>contrato</target>
       </trans-unit>
-        <trans-unit id="Extension not found" datatype="html">
-            <source>Extension not found</source>
-            <target>Extensão não encontrada</target>
-        </trans-unit>
-        <trans-unit id="extension installed" datatype="html">
-            <source>extension installed</source>
-            <target>extensão instalada</target>
-        </trans-unit>
-        <trans-unit id="extension started" datatype="html">
-            <source>extension started</source>
-            <target>extensão iniciada</target>
-        </trans-unit>
-        <trans-unit id="check steam auth" datatype="html">
-            <source>check steam auth</source>
-            <target>verifique a autenticação do steam</target>
-        </trans-unit>
-        <trans-unit id="check steam web api key" datatype="html">
-            <source>check steam web api key</source>
-            <target>verifique a chave de API da web do Steam</target>
-        </trans-unit>
-        <trans-unit id="requires Steam login" datatype="html">
-            <source>requires Steam login</source>
-            <target>requer login do Steam</target>
-        </trans-unit>
-        <trans-unit id="get api key" datatype="html">
-            <source>get api key</source>
-            <target>obter chave de API</target>
-        </trans-unit>
+      <trans-unit id="Extension not found" datatype="html">
+        <source>Extension not found</source>
+        <target>Extensão não encontrada</target>
+      </trans-unit>
+      <trans-unit id="extension installed" datatype="html">
+        <source>extension installed</source>
+        <target>extensão instalada</target>
+      </trans-unit>
+      <trans-unit id="extension started" datatype="html">
+        <source>extension started</source>
+        <target>extensão iniciada</target>
+      </trans-unit>
+      <trans-unit id="check steam auth" datatype="html">
+        <source>check steam auth</source>
+        <target>verifique a autenticação do steam</target>
+      </trans-unit>
+      <trans-unit id="check steam web api key" datatype="html">
+        <source>check steam web api key</source>
+        <target>verifique a chave de API da web do Steam</target>
+      </trans-unit>
+      <trans-unit id="requires Steam login" datatype="html">
+        <source>requires Steam login</source>
+        <target>requer login do Steam</target>
+      </trans-unit>
+      <trans-unit id="get api key" datatype="html">
+        <source>get api key</source>
+        <target>obter chave de API</target>
+      </trans-unit>
       <trans-unit id="MAX Buy order price:" datatype="html">
         <source>MAX Buy order price:</source>
         <target>Preço máximo da ordem de compra:</target>
@@ -6390,18 +5070,18 @@
       </trans-unit>
       <trans-unit id="x requests for n or higher" datatype="html">
         <source>
-          &lt;div style=&quot;font-size: 14px; color: #fff&quot;&gt;
+          &lt;div style="font-size: 14px; color: #fff"&gt;
           <x id="PH" equiv-text="this.point.y"/>
           <x id="PH_1" equiv-text="this.point.y === 1 ? request : requests"/>
-          &lt;br&gt;for &lt;span style=&quot;color: <x id="PH_2" equiv-text="this.color"/>&quot;&gt;<x id="PH_3" equiv-text="currencyPipe.transform(this.point.x, dataSource!.currency.current)"/> &lt;/span&gt; or
+          &lt;br&gt;for &lt;span style="color: <x id="PH_2" equiv-text="this.color"/>"&gt;<x id="PH_3" equiv-text="currencyPipe.transform(this.point.x, dataSource!.currency.current)"/> &lt;/span&gt; or
           <x id="PH_4" equiv-text="this.colorIndex === 0 ? higher : below"/>
           &lt;/div&gt;
         </source>
         <target>
-          &lt;div style=&quot;font-size: 14px; color: #fff&quot;&gt;
+          &lt;div style="font-size: 14px; color: #fff"&gt;
           <x id="PH" equiv-text="this.point.y"/>
           <x id="PH_1" equiv-text="this.point.y === 1 ? request : requests"/>
-          &lt;br&gt;para &lt;span style=&quot;color: <x id="PH_2" equiv-text="this.color"/>&quot;&gt;<x id="PH_3" equiv-text="currencyPipe.transform(this.point.x, dataSource!.currency.current)"/> &lt;/span&gt; ou
+          &lt;br&gt;para &lt;span style="color: <x id="PH_2" equiv-text="this.color"/>"&gt;<x id="PH_3" equiv-text="currencyPipe.transform(this.point.x, dataSource!.currency.current)"/> &lt;/span&gt; ou
           <x id="PH_4" equiv-text="this.colorIndex === 0 ? higher : below"/>
           &lt;/div&gt;
         </target>
@@ -6422,7 +5102,6 @@
         <source>below</source>
         <target>abaixo</target>
       </trans-unit>
-
       <trans-unit id="View 1 week" datatype="html">
         <source>View 1 week</source>
         <target>Ver 1 semana</target>
@@ -6467,30 +5146,26 @@
         <source>Notification enabled</source>
         <target>Notificação activada</target>
       </trans-unit>
-      <trans-unit id="Available StatTrak" datatype="html">
-        <source>Available StatTrak</source>
-        <target>StatTrak Disponível</target>
-      </trans-unit>
       <trans-unit id="Available in:" datatype="html">
         <source>Available in:</source>
         <target>Disponível em:</target>
       </trans-unit>
-        <trans-unit id="ATTENTION! We are currently experiencing temporary technical issues. There may be a delay in the transfer of money." datatype="html">
-            <source>ATTENTION! We are currently experiencing temporary technical issues. There may be a delay in the transfer of money.</source>
-            <target>ATENÇÃO! No momento, estamos enfrentando problemas técnicos temporários. Pode haver um atraso no crédito de fundos para a venda de itens.</target>
-        </trans-unit>
-        <trans-unit id="If your problem is not related to the transfer of money, write to support" datatype="html">
-            <source>If your problem is not related to the transfer of money, write to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>support<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
-            <target>Se o seu problema não estiver relacionado com a transferência de dinheiro, escreva para o <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>suporte<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
-        </trans-unit>
-        <trans-unit id="Probability of transmission" datatype="html">
-          <source>Probability of transmission</source>
-          <target>Probabilidade de transmissão</target>
-        </trans-unit>
-        <trans-unit id="The invoice will be issued by the payment system in the selected currency" datatype="html">
-          <source>The invoice will be issued by the payment system in the selected currency</source>
-          <target>A fatura será emitida pelo sistema de pagamento na moeda selecionada</target>
-        </trans-unit>
+      <trans-unit id="ATTENTION! We are currently experiencing temporary technical issues. There may be a delay in the transfer of money." datatype="html">
+        <source>ATTENTION! We are currently experiencing temporary technical issues. There may be a delay in the transfer of money.</source>
+        <target>ATENÇÃO! No momento, estamos enfrentando problemas técnicos temporários. Pode haver um atraso no crédito de fundos para a venda de itens.</target>
+      </trans-unit>
+      <trans-unit id="If your problem is not related to the transfer of money, write to support" datatype="html">
+        <source>If your problem is not related to the transfer of money, write to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>support<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <target>Se o seu problema não estiver relacionado com a transferência de dinheiro, escreva para o <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/usercab/support&quot; title=&quot;Support&quot;&gt;"/>suporte<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+      </trans-unit>
+      <trans-unit id="Probability of transmission" datatype="html">
+        <source>Probability of transmission</source>
+        <target>Probabilidade de transmissão</target>
+      </trans-unit>
+      <trans-unit id="The invoice will be issued by the payment system in the selected currency" datatype="html">
+        <source>The invoice will be issued by the payment system in the selected currency</source>
+        <target>A fatura será emitida pelo sistema de pagamento na moeda selecionada</target>
+      </trans-unit>
       <trans-unit id="from" datatype="html">
         <source>from</source>
         <target>da</target>
@@ -6543,7 +5218,6 @@
         <source>December</source>
         <target>Dezembro</target>
       </trans-unit>
-
       <trans-unit id="Jan" datatype="html">
         <source>Jan</source>
         <target>Jan</target>
@@ -6592,7 +5266,6 @@
         <source>Dec</source>
         <target>Dez</target>
       </trans-unit>
-
       <trans-unit id="Monday" datatype="html">
         <source>Monday</source>
         <target>Segunda-feira</target>
@@ -6757,10 +5430,6 @@
         <source>Now on sale</source>
         <target>A venda agora</target>
       </trans-unit>
-      <trans-unit id="items" datatype="html">
-        <source>items</source>
-        <target>unid</target>
-      </trans-unit>
       <trans-unit id="For the amount" datatype="html">
         <source>For the amount</source>
         <target>Pela quantia</target>
@@ -6805,10 +5474,6 @@
         <source>Description briefly</source>
         <target>Descrição brevemente</target>
       </trans-unit>
-      <trans-unit id="Recipient" datatype="html">
-        <source>Recipient</source>
-        <target>Destinatário</target>
-      </trans-unit>
       <trans-unit id="Pending review" datatype="html">
         <source>Pending review</source>
         <target>Revisão pendente</target>
@@ -6849,90 +5514,10 @@
         <source>Your item will be at the top of the list of offers until someone makes a better offer.</source>
         <target>Seu item ficará no topo da lista de ofertas até que alguém faça uma oferta melhor.</target>
       </trans-unit>
-        <trans-unit id="Internal Server Error" datatype="html">
-            <source>Internal Server Error</source>
-            <target>Erro do Servidor Interno</target>
-        </trans-unit>
-        <trans-unit id="Wrong bot number" datatype="html">
-            <source>Wrong bot number</source>
-            <target>Número do bot errado</target>
-        </trans-unit>
-        <trans-unit id="Failed to load your inventory. Try updating it" datatype="html">
-            <source>Failed to load your inventory. Try updating it</source>
-            <target>Falha ao carregar inventário. Tente atualizá-lo</target>
-        </trans-unit>
-        <trans-unit id="Make your inventory public in your Steam profile settings" datatype="html">
-            <source>Make your inventory public in your Steam profile settings</source>
-            <target>Torne seu inventário público nas configurações do seu perfil Steam.</target>
-        </trans-unit>
-        <trans-unit id="Server error" datatype="html">
-            <source>server error</source>
-            <target>erro de servidor</target>
-        </trans-unit>
-        <trans-unit id="Failed to create request number" datatype="html">
-            <source>Failed to create request number</source>
-            <target>Falha ao criar o número da solicitação.</target>
-        </trans-unit>
-        <trans-unit id="Failed to get list of items" datatype="html">
-            <source>Failed to get list of items</source>
-            <target>Falha ao obter lista de itens</target>
-        </trans-unit>
-        <trans-unit id="DB error 13" datatype="html">
-            <source>DB error 13</source>
-            <target>Erro de banco de dados 13</target>
-        </trans-unit>
-        <trans-unit id="DB error 2" datatype="html">
-            <source>DB error 2</source>
-            <target>Erro de banco de dados 2</target>
-        </trans-unit>
-        <trans-unit id="You don&apos;t have anything to give" datatype="html">
-            <source>You don&apos;t have anything to give</source>
-            <target>Você não tem nada para dar</target>
-        </trans-unit>
-        <trans-unit id="DB error 11" datatype="html">
-            <source>DB error 11</source>
-            <target>Erro de banco de dados 11</target>
-        </trans-unit>
-        <trans-unit id="You don&apos;t have an API key" datatype="html">
-            <source>You don&apos;t have an API key</source>
-            <target>Você não tem uma chave de API</target>
-        </trans-unit>
-        <trans-unit id="Failed to register exchange" datatype="html">
-            <source>Failed to register exchange</source>
-            <target>Falha ao registrar troca</target>
-        </trans-unit>
-        <trans-unit id="Failed to create withdrawal request" datatype="html">
-            <source>Failed to create withdrawal request</source>
-            <target>Falha ao criar uma solicitação de saque.</target>
-        </trans-unit>
-        <trans-unit id="Failed to create withdrawal request, please try again" datatype="html">
-            <source>Failed to create withdrawal request, please try again</source>
-            <target>Falha ao criar uma solicitação de saque. Tente novamente.</target>
-        </trans-unit>
-        <trans-unit id="Failed to create offer" datatype="html">
-            <source>Failed to create offer</source>
-            <target>Falha ao criar oferta</target>
-        </trans-unit>
-        <trans-unit id="We are trying to create an exchange with a bot with the nickname {nick}, check the list of offers" datatype="html">
-            <source>We are trying to create an exchange with a bot with the nickname {nick}, check the list of offers</source>
-            <target>Estamos tentando criar uma exchange com um bot com o apelido {nick}, confira a lista de ofertas</target>
-        </trans-unit>
-        <trans-unit id="Trades are temporarily unavailable to you. Suggest a trade to a Steam friend to find out the reason" datatype="html">
-            <source>Trades are temporarily unavailable to you. Suggest a trade to a Steam friend to find out the reason</source>
-            <target>A negociação está temporariamente indisponível para você. Ofereça uma troca a um amigo no Steam para descobrir o porquê.</target>
-        </trans-unit>
-        <trans-unit id="Your inventory does not contain the required items" datatype="html">
-            <source>Your inventory does not contain the required items</source>
-            <target>Não há itens obrigatórios em seu inventário</target>
-        </trans-unit>
-        <trans-unit id="Incorrect captcha code entered" datatype="html">
-            <source>Incorrect captcha code entered</source>
-            <target>Código captcha digitado errado</target>
-        </trans-unit>
-        <trans-unit id="An unexpected error occurred" datatype="html">
-            <source>An unexpected error occurred</source>
-            <target>Um erro inesperado ocorreu</target>
-        </trans-unit>
+      <trans-unit id="An unexpected error occurred" datatype="html">
+        <source>An unexpected error occurred</source>
+        <target>Um erro inesperado ocorreu</target>
+      </trans-unit>
       <trans-unit id="You have been banned by the chat administrator" datatype="html">
         <source>You have been banned by the chat administrator</source>
         <target>Você foi banido pelo administrador do chat</target>
@@ -7012,10 +5597,6 @@
       <trans-unit id="AliPay Verification rules text" datatype="html">
         <source>The ability to withdraw funds from ¥500 is provided to users who have successfully passed AliPay Verification</source>
         <target>A capacidade de sacar fundos de ¥ 500 é fornecida aos usuários que passaram com sucesso na Verificação do AliPay</target>
-      </trans-unit>
-      <trans-unit id="Email confirm text" datatype="html">
-        <source>According to statistics, accounts without linked mail are much more likely to be hacked by scammers. Notifications about new entries will be sent to your email, and you can also set up other important notifications. Increase the security of your account:</source>
-        <target>De acordo com as estatísticas, contas sem e-mail vinculado têm muito mais probabilidade de serem hackeadas por golpistas. Notificações sobre novas entradas serão enviadas para seu e-mail, e você também pode configurar outras notificações importantes. Aumente a segurança da sua conta:</target>
       </trans-unit>
       <trans-unit id="Done" datatype="html">
         <source>Done</source>
@@ -7104,14 +5685,6 @@
       <trans-unit id="We are in the active development stage of a MarketApp Mobile" datatype="html">
         <source>We are in the active development stage of a MarketApp Mobile and your opinion is incredibly important to us. Be one of the first to try out trading without a Desktop client or extension:</source>
         <target>Estamos em fase de desenvolvimento ativo de um MarketApp Mobile e sua opinião é extremamente importante para nós. Seja um dos primeiros a experimentar a negociação sem um cliente ou extensão para desktop:</target>
-      </trans-unit>
-      <trans-unit id="Download on the Google" datatype="html">
-        <source>Download on the</source>
-        <target>Faça o download no site</target>
-      </trans-unit>
-      <trans-unit id="Download on the Appstore" datatype="html">
-        <source>Download on the</source>
-        <target>Faça o download no site</target>
       </trans-unit>
       <trans-unit id="Download on the Google Play QR code" datatype="html">
         <source>Download on the Google Play QR code</source>
@@ -7205,14 +5778,6 @@
         <source>We are in the active development stage of a MarketApp Mobile and your opinion is incredibly important to us. Be one of the first to try out trading without a Desktop client or extension:</source>
         <target>Estamos em fase de desenvolvimento ativo de um MarketApp Mobile e sua opinião é extremamente importante para nós. Seja um dos primeiros a experimentar a negociação sem um cliente ou extensão para desktop:</target>
       </trans-unit>
-      <trans-unit id="Download on the Google" datatype="html">
-        <source>Download on the</source>
-        <target>Faça o download no site</target>
-      </trans-unit>
-      <trans-unit id="Download on the Appstore" datatype="html">
-        <source>Download on the</source>
-        <target>Faça o download no site</target>
-      </trans-unit>
       <trans-unit id="Download on the Google Play QR code" datatype="html">
         <source>Download on the Google Play QR code</source>
         <target>Download no código QR do Google Play</target>
@@ -7233,18 +5798,6 @@
         <source>Verified</source>
         <target>Verificado</target>
       </trans-unit>
-      <trans-unit id="Price Market" datatype="html">
-        <source>Price Market</source>
-        <target>Mercado de preços</target>
-      </trans-unit>
-      <trans-unit id="Steam price" datatype="html">
-        <source>Steam price</source>
-        <target>Preço do vapor</target>
-      </trans-unit>
-      <trans-unit id="Attrition:" datatype="html">
-        <source>Attrition:</source>
-        <target>Atrito:</target>
-      </trans-unit>
       <trans-unit id="Grouped" datatype="html">
         <source>Grouped</source>
         <target>Agrupado</target>
@@ -7257,43 +5810,19 @@
         <source>Selected:</source>
         <target>Selecionado:</target>
       </trans-unit>
-      <trans-unit id="Added" datatype="html">
-        <source>Added</source>
-        <target>Adicionado</target>
-      </trans-unit>
-      <trans-unit id="Put away" datatype="html">
-        <source>Put away</source>
-        <target>Jogue fora</target>
-      </trans-unit>
-      <trans-unit id="Price for 1 item" datatype="html">
-        <source>Price for 1 item</source>
-        <target>Preço para 1 item</target>
-      </trans-unit>
-      <trans-unit id="Recommended price:" datatype="html">
-        <source>Recommended price:</source>
-        <target>Preço recomendado:</target>
-      </trans-unit>
-      <trans-unit id="Instant sale:" datatype="html">
-        <source>Instant sale:</source>
-        <target>Venda instantânea:</target>
-      </trans-unit>
-      <trans-unit id="Amount including commission 5%" datatype="html">
-        <source>Amount including commission 5%</source>
-        <target>Valor incluindo comissão 5%</target>
-      </trans-unit>
       <trans-unit id="Submitted" datatype="html">
-         <source>Submitted</source>
-         <target>Submetido</target>
-       </trans-unit>
-       <trans-unit id="In progress" datatype="html">
-         <source>In progress</source>
-         <target>Em andamento</target>
-       </trans-unit>
-       <trans-unit id="Cancelled" datatype="html">
-         <source>Cancelled</source>
-         <target>Cancelado</target>
-       </trans-unit>
-       <trans-unit id="Cancel operation" datatype="html">
+        <source>Submitted</source>
+        <target>Submetido</target>
+      </trans-unit>
+      <trans-unit id="In progress" datatype="html">
+        <source>In progress</source>
+        <target>Em andamento</target>
+      </trans-unit>
+      <trans-unit id="Cancelled" datatype="html">
+        <source>Cancelled</source>
+        <target>Cancelado</target>
+      </trans-unit>
+      <trans-unit id="Cancel operation" datatype="html">
         <source>Cancel</source>
         <target>Cancelar</target>
       </trans-unit>
@@ -7301,37 +5830,9 @@
         <source> We are unable to determine the status of this trade. To fix this, you need to update <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://marketapp.online&quot; target=&quot;_blank&quot;&gt;"/>MarketApp<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> to the latest version, after which our system will be able to check your trade history and determine the status of this trade. Otherwise, our system will consider this trade as unsuccessful after the timer expires. </source>
         <target>Não conseguimos determinar o status desta negociação. Para corrigir isso, você precisa atualizar o <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://marketapp.online&quot; target=&quot;_blank&quot;&gt;"/>MarketApp<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> para a versão mais recente, após o qual nosso sistema será capaz de verificar seu histórico de negociação e determinar o status desta negociação. Caso contrário, nosso sistema considerará esta negociação malsucedida após o tempo expirar.</target>
       </trans-unit>
-      <trans-unit id="Mentions in chat:"  datatype="html">
-        <source>Mentions in chat: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;count&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{mentionCount.length}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Menções no bate-papo: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;count&quot;&gt;"/><x id="INTERPOLATION" equiv-text ="{{mentionCount.length}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-      </trans-unit>
-      <trans-unit id="Please read these rules carefully before purchasing:" datatype="html">
-         <source>Please read these rules carefully before purchasing:</source>
-         <target>Por favor, leia estas regras cuidadosamente antes de comprar:</target>
-       </trans-unit>
-      <trans-unit id="After confirming this operation, an amount equal to the cost of the item will be debited from your balance and will be frozen for 5 minutes." datatype="html">
-        <source>After confirming this operation, an amount equal to the cost of the item will be debited from your balance and will be frozen for 5 minutes. This is necessary so that all participants in the transaction have time to confirm the exchange.</source>
-        <target>Após a confirmação desta operação, um valor igual ao custo do item será debitado do seu saldo e ficará congelado por 5 minutos. Isso é necessário para que todos os participantes da transação tenham tempo de confirmar a troca.</target>
-      </trans-unit>
-      <trans-unit id="If the seller did not have time to confirm the exchange" datatype="html">
-        <source>If the seller did not have time to confirm the exchange, the money will be returned to your account 5 minutes after confirmation of this operation.</source>
-        <target>Caso o vendedor não tenha tido tempo de confirmar a troca, o dinheiro será devolvido à sua conta 5 minutos após a confirmação desta operação.</target>
-      </trans-unit>
-      <trans-unit id="After the seller confirms the exchange, you need to accept it within 5 minutes." datatype="html">
-        <source>After the seller confirms the exchange, you need to accept it within 5 minutes. If you do not accept the exchange in this case, you may be assessed penalty points. Also, if you decline or do not accept too many exchanges, the site will temporarily restrict your ability to shop.</source>
-        <target>Depois que o vendedor confirmar a troca, você precisará aceitá-la em 5 minutos. Se você não aceitar a troca neste caso, poderá receber pontos de penalidade. Além disso, se você recusar ou não aceitar muitas trocas, o site restringirá temporariamente sua capacidade de fazer compras.</target>
-      </trans-unit>
       <trans-unit id="To main" datatype="html">
         <source>To main</source>
         <target>Para principal</target>
-      </trans-unit>
-      <trans-unit id="Market TOP-1 price:" datatype="html">
-        <source>Market TOP-1 price:</source>
-        <target>Preço TOP-1 do mercado:</target>
-      </trans-unit>
-      <trans-unit id="Steam price:" datatype="html">
-        <source>Steam price:</source>
-        <target>Preço do vapor:</target>
       </trans-unit>
       <trans-unit id="Trade skins safely" datatype="html">
         <source>Trade skins safely</source>
@@ -7353,7 +5854,7 @@
         <source>MarketApp Extension</source>
         <target>Extensão do MarketApp</target>
       </trans-unit>
-        <trans-unit id="Install the main client to set up sales on the site" datatype="html">
+      <trans-unit id="Install the main client to set up sales on the site" datatype="html">
         <source>Install the main client to set up sales on the site</source>
         <target>Instale o cliente principal para configurar as vendas no site</target>
       </trans-unit>
@@ -7465,10 +5966,6 @@
         <source> Do you want to remove a wallet from the list of saved withdrawal methods? </source>
         <target>Deseja remover uma carteira da lista de métodos de saque salvos?</target>
       </trans-unit>
-      <trans-unit id="Your request to withdraw funds in the amount of 2300₽ to a bank card **** 2334 has been successfully accepted." datatype="html">
-        <source> Your request to withdraw funds in the amount of <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;info&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{data.sum}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> to a bank card <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;info&quot;&gt;"/><x id="INTERPOLATION_1" equiv-text="{{data.card}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> has been successfully accepted. </source>
-        <target>Sua solicitação para sacar fundos no valor de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;info&quot;&gt;"/><x id=" INTERPOLATION" equiv-text="{{data.sum}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> para um cartão bancário <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;info&quot;&gt;"/><x id="INTERPOLATION_1" equiv-text="{{data.card}} "/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> foi aceito com sucesso.</target>
-      </trans-unit>
       <trans-unit id="Crediting funds can take from 1 minute to 48 hours. Thank you for your patience." datatype="html">
         <source> Crediting funds can take from 1 minute to 48 hours. Thank you for your patience. </source>
         <target>O crédito de fundos pode levar de 1 minuto a 48 horas. Obrigado pela sua paciência.</target>
@@ -7485,8 +5982,8 @@
         <source>Enter your wallet name</source>
         <target>Digite o nome da sua carteira</target>
       </trans-unit>
-      <trans-unit id="Example &apos;main wallet&apos;" datatype="html">
-        <source>Example &apos;main wallet&apos;</source>
+      <trans-unit id="Example 'main wallet'" datatype="html">
+        <source>Example 'main wallet'</source>
         <target>Exemplo de 'carteira principal'</target>
       </trans-unit>
       <trans-unit id="Wallet number" datatype="html">
@@ -7561,7 +6058,7 @@
         <source>Application for withdrawal of funds</source>
         <target>Solicitação de retirada de fundos</target>
       </trans-unit>
-       <trans-unit id="Your request to withdraw funds in the amount" datatype="html">
+      <trans-unit id="Your request to withdraw funds in the amount" datatype="html">
         <source>Your request to withdraw funds in the amount of</source>
         <target>Sua solicitação para sacar fundos no valor</target>
       </trans-unit>
@@ -7577,17 +6074,9 @@
         <source>Enter your new wallet name</source>
         <target>Digite o novo nome da sua carteira</target>
       </trans-unit>
-      <trans-unit id="There is a buyer for your item." datatype="html">
-        <source>There is a buyer for your item.</source>
-        <target>Existe um comprador para o seu artigo, <x id="PH" equiv-text="item.market_hash_name"/> confirma a receção no seu (&lt;a href='/usercab'&gt;perfil&lt;/a&gt;)</target>
-      </trans-unit>
       <trans-unit id="Authorization/login" datatype="html">
         <source>Authorization/login</source>
         <target>Autorização/login</target>
-      </trans-unit>
-      <trans-unit id="Login/Register via Steam" datatype="html">
-        <source>Login/Register via Steam</source>
-        <target>Faça login/registre-se via Steam</target>
       </trans-unit>
       <trans-unit id="Do not log out for 10 days" datatype="html">
         <source>Do not log out for 10 days</source>
@@ -7605,29 +6094,9 @@
         <source>You are successful through Steam, please associate your Market.CSGO account</source>
         <target>Você obteve sucesso no Steam, associe sua conta Market.CSGO</target>
       </trans-unit>
-      <trans-unit id="Country Code" datatype="html">
-        <source>Country Code</source>
-        <target>Código do país</target>
-      </trans-unit>
-      <trans-unit id="Enter new phone number" datatype="html">
-        <source>Enter new phone number</source>
-        <target>Introduza o novo número de telefone</target>
-      </trans-unit>
       <trans-unit id="You can get the code again via" datatype="html">
         <source>You can get the code again via</source>
         <target>Pode obter o código novamente via</target>
-      </trans-unit>
-      <trans-unit id="Enter code from SMS sent to current phone number" datatype="html">
-        <source>Enter code from SMS sent to current phone number</source>
-        <target>Introduza o código do SMS enviado para o número de telefone atual</target>
-      </trans-unit>
-      <trans-unit id="Enter code from SMS sent to new phone number" datatype="html">
-        <source>Enter code from SMS sent to new phone number</source>
-        <target>Introduza o código do SMS enviado para o novo número de telefone</target>
-      </trans-unit>
-      <trans-unit id="Change number" datatype="html">
-        <source>Change number</source>
-        <target>Alterar número</target>
       </trans-unit>
       <trans-unit id="You can get the code again via" datatype="html">
         <source>You can get the code again via</source>
