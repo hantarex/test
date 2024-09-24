@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="Automatic reload after" datatype="html">
         <source>Automatic reload after </source>
-        <target>Автоматическая перезагрузка через </target>
+        <target>Автоматическая перезагрузка через</target>
       </trans-unit>
       <trans-unit id="event070424_1" datatype="html">
         <source>You must do these actions before 04/10/2024, otherwise our system will count pending trades as unsuccessful.</source>
@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="pc" datatype="html">
         <source>pc</source>
-        <target> шт.</target>
+        <target>шт.</target>
       </trans-unit>
       <trans-unit id="All autobuy requests" datatype="html">
         <source>All autobuy requests</source>
@@ -104,8 +104,9 @@
           <context context-type="linenumber">345,347</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+      <trans-unit id="ngb.pagination.next-aria" datatype="html" xml:space="preserve">
         <source>Next</source>
+        <target state="translated">следущщщщ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">358,363</context>
@@ -237,7 +238,7 @@
       </trans-unit>
       <trans-unit id="Cart" datatype="html">
         <source> Cart </source>
-        <target> Корзина </target>
+        <target>Корзина</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/basket/basket.component.html</context>
           <context context-type="linenumber">20,22</context>
@@ -345,7 +346,7 @@
       </trans-unit>
       <trans-unit id="offers" datatype="html">
         <source>offers</source>
-        <target>предложений  </target>
+        <target>предложений</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
           <context context-type="linenumber">4</context>
@@ -865,7 +866,7 @@
       </trans-unit>
       <trans-unit id="Filter by popular skins and paint seeds" datatype="html">
         <source> Filter by popular skins and paint seeds </source>
-        <target>Filter by popular skins and paint seeds </target>
+        <target>Filter by popular skins and paint seeds</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/landing-page/landing-page.component.html</context>
           <context context-type="linenumber">122,124</context>
@@ -1251,7 +1252,7 @@
       </trans-unit>
       <trans-unit id="Try again" datatype="html">
         <source> Try again </source>
-        <target> Попробовать снова </target>
+        <target>Попробовать снова</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-actions/sell-items-actions.component.html</context>
           <context context-type="linenumber">29,30</context>
@@ -1271,7 +1272,7 @@
       </trans-unit>
       <trans-unit id="Type of skin" datatype="html">
         <source>Type of skin: </source>
-        <target>Тип скина: </target>
+        <target>Тип скина:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/filters/filter-above-inventory/top-items-filter/top-items-filter.component.html</context>
           <context context-type="linenumber">5,6</context>
@@ -1351,7 +1352,7 @@
       </trans-unit>
       <trans-unit id="Profile of" datatype="html">
         <source> Profile of <x id="INTERPOLATION" equiv-text="{{ userStat.res?.seller?.nick }}"/> </source>
-        <target> Профиль пользователя <x id="INTERPOLATION" equiv-text="{{ userStat.res?.seller?.nick }}"/> </target>
+        <target>Профиль пользователя <x id="INTERPOLATION" equiv-text="{{ userStat.res?.seller?.nick }}"/> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/another-profile/menu/menu.component.html</context>
           <context context-type="linenumber">35,36</context>
@@ -1573,7 +1574,7 @@
       </trans-unit>
       <trans-unit id="Wear" datatype="html">
         <source> Wear </source>
-        <target> Износ </target>
+        <target>Износ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/full-item-info-inventory/full-item-info-inventory.component.html</context>
           <context context-type="linenumber">30,32</context>
@@ -1585,7 +1586,7 @@
       </trans-unit>
       <trans-unit id="Phase" datatype="html">
         <source> Phase </source>
-        <target> Фаза </target>
+        <target>Фаза</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/full-item-info/full-item-info.component.html</context>
           <context context-type="linenumber">36,38</context>
@@ -1645,7 +1646,7 @@
       </trans-unit>
       <trans-unit id="Current price" datatype="html">
         <source> Current price </source>
-        <target> Текущая цена </target>
+        <target>Текущая цена</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/item-with-editable-price/item-with-editable-price.component.html</context>
           <context context-type="linenumber">29,31</context>
@@ -1864,7 +1865,7 @@
       </trans-unit>
       <trans-unit id="Failed to place notify" datatype="html">
         <source>Failed to place notify</source>
-        <target>Ошибка в установке уведомления </target>
+        <target>Ошибка в установке уведомления</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/page-inventory-info/page-inventory-info.component.ts</context>
           <context context-type="linenumber">298</context>
@@ -1896,7 +1897,7 @@
       </trans-unit>
       <trans-unit id="Waiting for a transfer" datatype="html">
         <source>Waiting for a transfer</source>
-        <target>Ожидает передачи </target>
+        <target>Ожидает передачи</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/sell-component/sell-component.component.html</context>
           <context context-type="linenumber">44</context>
@@ -2024,7 +2025,7 @@
       </trans-unit>
       <trans-unit id="Recommended selling price:" datatype="html">
         <source> Recommended selling price: </source>
-        <target> Рекомендуемая цена продажи: </target>
+        <target>Рекомендуемая цена продажи:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/dialogs/item-dialog-info/item-dialog-info.component.html</context>
           <context context-type="linenumber">31,33</context>
@@ -2040,7 +2041,7 @@
       </trans-unit>
       <trans-unit id="Instant sale price:" datatype="html">
         <source> Instant sale price: </source>
-        <target> Моментальная цена продажи: </target>
+        <target>Моментальная цена продажи:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/dialogs/item-dialog-info/item-dialog-info.component.html</context>
           <context context-type="linenumber">44,46</context>
@@ -2056,7 +2057,7 @@
       </trans-unit>
       <trans-unit id="Error when load prices" datatype="html">
         <source>Error when load prices</source>
-        <target> Ошибка в загрузке цен </target>
+        <target>Ошибка в загрузке цен</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/dialogs/item-dialog-info/item-dialog-info.component.ts</context>
           <context context-type="linenumber">63</context>
@@ -2136,7 +2137,7 @@
       </trans-unit>
       <trans-unit id="Withdraw" datatype="html">
         <source> Withdraw </source>
-        <target> Вывод </target>
+        <target>Вывод</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/buy/buy.component.html</context>
           <context context-type="linenumber">47,48</context>
@@ -2252,7 +2253,7 @@
       </trans-unit>
       <trans-unit id="You will be redirected to the payment system website, where you can complete the payment. The commission is charged in accordance with the tariffs of the selected payment system." datatype="html">
         <source> You will be redirected to the payment system website, where you can complete the payment. The commission is charged in accordance with the tariffs of the selected payment system. </source>
-        <target> Вы будете перенаправлены на сайт платежной системы, где сможете совершить платеж. Комиссия взимается в соответствии с тарифами выбранной платежной системы. </target>
+        <target>Вы будете перенаправлены на сайт платежной системы, где сможете совершить платеж. Комиссия взимается в соответствии с тарифами выбранной платежной системы.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/refill/refill.component.html</context>
           <context context-type="linenumber">78,89</context>
@@ -2304,7 +2305,7 @@
       </trans-unit>
       <trans-unit id="Date" datatype="html">
         <source> Date </source>
-        <target> Дата </target>
+        <target>Дата</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/withdrawings-request/withdrawings-request.component.html</context>
           <context context-type="linenumber">53,54</context>
@@ -2824,7 +2825,7 @@
       </trans-unit>
       <trans-unit id="There is currently nothing for sale from your inventory" datatype="html">
         <source>There is currently nothing for sale from your inventory</source>
-        <target> В настоящее время в вашем инвентаре нет ничего для продажи</target>
+        <target>В настоящее время в вашем инвентаре нет ничего для продажи</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/on-sale/on-sale.component.html</context>
           <context context-type="linenumber">23,26</context>
@@ -3084,7 +3085,7 @@
       </trans-unit>
       <trans-unit id="I agree with deal" datatype="html">
         <source> I agree with the terms of the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;static/terms&quot; target=&quot;_blank&quot;&gt;"/>Agreement<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, <x id="START_LINK_1" equiv-text="&lt;a href=&quot;static/agreement&quot;&gt;"/>Agent Agreement<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and I understand that during the process of replenishing the account, the offers of our system participants may change. </source>
-        <target> Я согласен с условиями <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;static/terms&quot; target=&quot;_blank&quot;&gt;"/>соглашение<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, <x id="START_LINK_1" equiv-text="&lt;a href=&quot;static/agreement&quot;&gt;"/>Агентское соглашение<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> и я понимаю, что в процессе пополнения счета предложения участников нашей системы могут меняться. </target>
+        <target>Я согласен с условиями <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;static/terms&quot; target=&quot;_blank&quot;&gt;"/>соглашение<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, <x id="START_LINK_1" equiv-text="&lt;a href=&quot;static/agreement&quot;&gt;"/>Агентское соглашение<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> и я понимаю, что в процессе пополнения счета предложения участников нашей системы могут меняться. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/balance/components/refill/refill.component.html</context>
           <context context-type="linenumber">67,68</context>
@@ -3100,7 +3101,7 @@
       </trans-unit>
       <trans-unit id="Count" datatype="html">
         <source> Count </source>
-        <target> Количество </target>
+        <target>Количество</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/components/best-offers/best-offers.component.html</context>
           <context context-type="linenumber">19</context>
@@ -3252,7 +3253,7 @@
       </trans-unit>
       <trans-unit id="Site" datatype="html">
         <source> Site </source>
-        <target> Сайт </target>
+        <target>Сайт</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/permissions-sites/permissions-sites.component.html</context>
           <context context-type="linenumber">7,8</context>
@@ -3260,7 +3261,7 @@
       </trans-unit>
       <trans-unit id="Action" datatype="html">
         <source> Action </source>
-        <target> Действие </target>
+        <target>Действие</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/permissions-sites/permissions-sites.component.html</context>
           <context context-type="linenumber">12,13</context>
@@ -3276,7 +3277,7 @@
       </trans-unit>
       <trans-unit id="Permissions not found" datatype="html">
         <source> Permissions not found </source>
-        <target> Разрешения не найдены</target>
+        <target>Разрешения не найдены</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/permissions-sites/permissions-sites.component.html</context>
           <context context-type="linenumber">23,25</context>
@@ -3446,7 +3447,7 @@
       </trans-unit>
       <trans-unit id="Remove site permission" datatype="html">
         <source>Remove site permission</source>
-        <target>Удалить разрешение сайта </target>
+        <target>Удалить разрешение сайта</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/permissions-sites/permissions-sites.component.ts</context>
           <context context-type="linenumber">48</context>
@@ -3454,7 +3455,7 @@
       </trans-unit>
       <trans-unit id="Error when revoke permissions" datatype="html">
         <source>Error when revoke permissions</source>
-        <target>Ошибка при отзыве разрешений </target>
+        <target>Ошибка при отзыве разрешений</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/permissions-sites/permissions-sites.component.ts</context>
           <context context-type="linenumber">67</context>
@@ -3470,7 +3471,7 @@
       </trans-unit>
       <trans-unit id="Steam Guard – protecting your account through the Steam mobile app." datatype="html">
         <source> Steam Guard – protecting your account through the Steam mobile app. </source>
-        <target> Steam Guard — защита вашего аккаунта через мобильное приложение Steam. </target>
+        <target>Steam Guard — защита вашего аккаунта через мобильное приложение Steam.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/security.component.html</context>
           <context context-type="linenumber">6,10</context>
@@ -3494,7 +3495,7 @@
       </trans-unit>
       <trans-unit id="Two-factor authentication:" datatype="html">
         <source>Two-factor authentication:</source>
-        <target> Двухфакторная аутентификация: </target>
+        <target>Двухфакторная аутентификация:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/security.component.html</context>
           <context context-type="linenumber">16,17</context>
@@ -3502,7 +3503,7 @@
       </trans-unit>
       <trans-unit id="Every time you withdraw funds from your account, you will receive a verification code in the Google Authenticator mobile app" datatype="html">
         <source> Every time you withdraw funds from your account, you will receive a verification code in the Google Authenticator mobile app </source>
-        <target> Каждый раз, когда вы снимаете средства со своего счета, вы получаете код подтверждения в мобильном приложении Google Authenticator. </target>
+        <target>Каждый раз, когда вы снимаете средства со своего счета, вы получаете код подтверждения в мобильном приложении Google Authenticator.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/security.component.html</context>
           <context context-type="linenumber">18,23</context>
@@ -3542,7 +3543,7 @@
       </trans-unit>
       <trans-unit id="View and manage permissions" datatype="html">
         <source> View and manage permissions </source>
-        <target> Просмотр разрешений и управление ими </target>
+        <target>Просмотр разрешений и управление ими</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/settings/components/security/security.component.html</context>
           <context context-type="linenumber">52,55</context>
@@ -3727,7 +3728,7 @@
       </trans-unit>
       <trans-unit id="Answer:" datatype="html">
         <source> Answer: </source>
-        <target> Ответ: </target>
+        <target>Ответ:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-head/support-head.component.html</context>
           <context context-type="linenumber">11,13</context>
@@ -3735,7 +3736,7 @@
       </trans-unit>
       <trans-unit id="Created:" datatype="html">
         <source> Created: </source>
-        <target> Создано: </target>
+        <target>Создано:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-head/support-head.component.html</context>
           <context context-type="linenumber">17,19</context>
@@ -3811,7 +3812,7 @@
       </trans-unit>
       <trans-unit id="I read" datatype="html">
         <source>I read </source>
-        <target>Я прочитал </target>
+        <target>Я прочитал</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
           <context context-type="linenumber">34</context>
@@ -3819,7 +3820,7 @@
       </trans-unit>
       <trans-unit id="Attention" datatype="html">
         <source>Attention!</source>
-        <target>Внимание! </target>
+        <target>Внимание!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
           <context context-type="linenumber">37,38</context>
@@ -3827,7 +3828,7 @@
       </trans-unit>
       <trans-unit id="In order to ensure the safety of your account and the funds on it, we remind you: the technical support staff NEVER ask users for any passwords (including payment ones) and two-factor authorization codes. Be vigilant and do not share any data with anyone!" datatype="html">
         <source> In order to ensure the safety of your account and the funds on it, we remind you: the technical support staff NEVER ask users for any passwords (including payment ones) and two-factor authorization codes. Be vigilant and do not share any data with anyone! </source>
-        <target>В целях обеспечения безопасности вашего аккаунта и средств на нем напоминаем: сотрудники техподдержки НИКОГДА не запрашивают у пользователей какие-либо пароли (в том числе платежные) и коды двухфакторной авторизации. Будьте бдительны и никому не сообщайте никаких данных! </target>
+        <target>В целях обеспечения безопасности вашего аккаунта и средств на нем напоминаем: сотрудники техподдержки НИКОГДА не запрашивают у пользователей какие-либо пароли (в том числе платежные) и коды двухфакторной авторизации. Будьте бдительны и никому не сообщайте никаких данных!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
           <context context-type="linenumber">39,46</context>
@@ -3835,7 +3836,7 @@
       </trans-unit>
       <trans-unit id="Create ticket" datatype="html">
         <source>Create ticket</source>
-        <target>Создать тикет </target>
+        <target>Создать тикет</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/modules/support/support-new/support-new.component.html</context>
           <context context-type="linenumber">45,47</context>
@@ -3915,7 +3916,7 @@
       </trans-unit>
       <trans-unit id="Now you can set up email alerts" datatype="html">
         <source> Now you can set up email alerts </source>
-        <target> Теперь можно настроить оповещения по e-mail </target>
+        <target>Теперь можно настроить оповещения по e-mail</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/email-confirm/email-confirm.component.html</context>
           <context context-type="linenumber">8,10</context>
@@ -3947,7 +3948,7 @@
       </trans-unit>
       <trans-unit id="To avoid becoming a fraud victim, never share your exchange link with anyone!" datatype="html">
         <source> To avoid becoming a fraud victim, never share your exchange link with anyone! </source>
-        <target> Чтобы не стать жертвой мошенничества, никогда не сообщайте посторонним людям вашу ссылку на обмен! </target>
+        <target>Чтобы не стать жертвой мошенничества, никогда не сообщайте посторонним людям вашу ссылку на обмен!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link/exchange-link.component.html</context>
           <context context-type="linenumber">40,46</context>
@@ -3955,7 +3956,7 @@
       </trans-unit>
       <trans-unit id="A link that allows you to trade with players who are not on your friends list. Copy the trade link from your Steam account into the box and click Apply." datatype="html">
         <source> A link that allows you to trade with players who are not on your friends list. Copy the trade link from your Steam account into the box and click Apply. </source>
-        <target> Ссылка, которая дает вам возможность торговать с игроками, которых нет в вашем списке друзей Steam. Скопируйте ссылку на обмен из вашей учетной записи Steam в поле ниже и нажмите «Применить». </target>
+        <target>Ссылка, которая дает вам возможность торговать с игроками, которых нет в вашем списке друзей Steam. Скопируйте ссылку на обмен из вашей учетной записи Steam в поле ниже и нажмите «Применить».</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared-simple-components/exchange-link/exchange-link.component.html</context>
           <context context-type="linenumber">31,35</context>
@@ -4135,7 +4136,7 @@
       </trans-unit>
       <trans-unit id="String has at least one number" datatype="html">
         <source>String has at least one number</source>
-        <target> Строка должна содержать хотя бы одно число </target>
+        <target>Строка должна содержать хотя бы одно число</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/helper.service.ts</context>
           <context context-type="linenumber">122</context>
@@ -5097,7 +5098,7 @@
       </trans-unit>
       <trans-unit id="For ANY error try ALL methods of confirmation! You must confirm the operation within 1 minute" datatype="html">
         <source> For <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;bold&quot;&gt;"/>ANY<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> error try <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;bold&quot;&gt;"/>ALL<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> methods of confirmation!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> You must confirm the operation within 1 minute</source>
-        <target> При <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;bold&quot;&gt;"/>ЛЮБОЙ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ошибке попробуйте <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;bold&quot;&gt;"/>ВСЕ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> способы подтверждения!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Вы должны подтвердить операцию в течение 1 минуты</target>
+        <target>При <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;bold&quot;&gt;"/>ЛЮБОЙ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ошибке попробуйте <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;bold&quot;&gt;"/>ВСЕ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> способы подтверждения!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Вы должны подтвердить операцию в течение 1 минуты</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/inventory/dialogs/accept-trade/accept-trade.component.html</context>
           <context context-type="linenumber">53,55</context>
@@ -5161,7 +5162,7 @@
       </trans-unit>
       <trans-unit id="Sell items rules text" datatype="html">
         <source> A skin bought from you must be delivered within <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>5 minutes<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. For security reasons, if the skin is not sent in time, the transaction will be cancelled automatically.</source>
-        <target> Купленный у вас скин нужно доставить в течении <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>5 минут<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. По соображениям безопасности, если скин не будет отправлен вовремя, транзакция будет автоматически отменена.</target>
+        <target>Купленный у вас скин нужно доставить в течении <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>5 минут<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. По соображениям безопасности, если скин не будет отправлен вовремя, транзакция будет автоматически отменена.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-rules/sell-items-rules.component.html</context>
           <context context-type="linenumber">3,5</context>
@@ -5169,7 +5170,7 @@
       </trans-unit>
       <trans-unit id="Sell items rules text 2" datatype="html">
         <source>If you fail to deliver the skin on time several times, the ability to sell skins will be temporarily disabled, please make your trades on time. </source>
-        <target>Если вы несколько раз не доставите скин вовремя, возможность продажи будет временно отключена, пожалуйста, совершайте трейды вовремя. </target>
+        <target>Если вы несколько раз не доставите скин вовремя, возможность продажи будет временно отключена, пожалуйста, совершайте трейды вовремя.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/pages/usercab/components/sell-items/sell-items-rules/sell-items-rules.component.html</context>
           <context context-type="linenumber">3,5</context>
@@ -5289,7 +5290,7 @@
       </trans-unit>
       <trans-unit id="I agree to the terms of the" datatype="html">
         <source>I agree to the terms of the </source>
-        <target>Я согласен с условиями </target>
+        <target>Я согласен с условиями</target>
       </trans-unit>
       <trans-unit id="_contract" datatype="html">
         <source>contract</source>
@@ -5352,14 +5353,7 @@
           <x id="PH_4" equiv-text="this.colorIndex === 0 ? higher : below"/>
           &lt;/div&gt;
         </source>
-        <target>
-          &lt;div style="font-size: 14px; color: #fff"&gt;
-          <x id="PH" equiv-text="this.point.y"/>
-          <x id="PH_1" equiv-text="this.point.y === 1 ? request : requests"/>
-          &lt;br&gt;за &lt;span style="color: <x id="PH_2" equiv-text="this.color"/>"&gt;<x id="PH_3" equiv-text="currencyPipe.transform(this.point.x, dataSource!.currency.current)"/> &lt;/span&gt; или
-          <x id="PH_4" equiv-text="this.colorIndex === 0 ? higher : below"/>
-          &lt;/div&gt;
-        </target>
+        <target>&lt;div style="font-size: 14px; color: #fff"&gt; <x id="PH" equiv-text="this.point.y"/> <x id="PH_1" equiv-text="this.point.y === 1 ? request : requests"/> &lt;br&gt;за &lt;span style="color: <x id="PH_2" equiv-text="this.color"/>"&gt;<x id="PH_3" equiv-text="currencyPipe.transform(this.point.x, dataSource!.currency.current)"/> &lt;/span&gt; или <x id="PH_4" equiv-text="this.colorIndex === 0 ? higher : below"/> &lt;/div&gt; </target>
       </trans-unit>
       <trans-unit id="request" datatype="html">
         <source>request</source>
@@ -5847,7 +5841,7 @@
       </trans-unit>
       <trans-unit id="You have stopped trading. Your items are not selling, your inventory is not updated and auto purchasing is not working!" datatype="html">
         <source>You have stopped trading. Your items are not selling, your inventory is not updated and auto purchasing is not working!</source>
-        <target>Вы остановили торговлю. Ваши вещи не продаются, инвентарь не обновляется и автозакупка не работает! </target>
+        <target>Вы остановили торговлю. Ваши вещи не продаются, инвентарь не обновляется и автозакупка не работает!</target>
       </trans-unit>
       <trans-unit id="Item purchase request has been sent to the seller. Awaiting confirmation from the seller." datatype="html">
         <source>Item purchase request has been sent to the seller. Awaiting confirmation from the seller.</source>
@@ -6167,7 +6161,7 @@
       </trans-unit>
       <trans-unit id="write to our" datatype="html">
         <source>write to our </source>
-        <target>напишите нам в </target>
+        <target>напишите нам в</target>
       </trans-unit>
       <trans-unit id="technical support" datatype="html">
         <source>technical support</source>
@@ -6279,7 +6273,7 @@
       </trans-unit>
       <trans-unit id="To sale from a mobile device, you need to install the" datatype="html">
         <source>To sale from a mobile device, you need to install the </source>
-        <target>Чтобы торговать с мобильного браузера, вам необходимо установить </target>
+        <target>Чтобы торговать с мобильного браузера, вам необходимо установить</target>
       </trans-unit>
       <trans-unit id="and keep it enabled on your computer, then go to the" datatype="html">
         <source>and keep it enabled on your computer, then go to the </source>
@@ -6363,7 +6357,7 @@
       </trans-unit>
       <trans-unit id="Oops, something went wrong. We are already working to fix this error. Sorry for the temporary inconvenience." datatype="html">
         <source>Oops, something went wrong. We are already working to fix this error. Sorry for the temporary inconvenience.</source>
-        <target>Упс, что-то пошло не так. Мы уже работаем над устранением этой ошибки. Извините за временные неудобства. </target>
+        <target>Упс, что-то пошло не так. Мы уже работаем над устранением этой ошибки. Извините за временные неудобства.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/models/errors-msg.ts</context>
           <context context-type="linenumber">28</context>
@@ -6443,7 +6437,7 @@
       </trans-unit>
       <trans-unit id="Failed to create an exchange offer. Try again or contact technical support." datatype="html">
         <source>Failed to create an exchange offer. Try again or contact &lt;a href="/usercab/support"&gt;technical support&lt;/a&gt;.</source>
-        <target>Не удалось создать предложение обмена. Попробуйте еще раз или обратитесь  &lt;a href="/usercab/support"&gt;техническую поддержку&lt;/a&gt;.</target>
+        <target>Не удалось создать предложение обмена. Попробуйте еще раз или обратитесь &lt;a href="/usercab/support"&gt;техническую поддержку&lt;/a&gt;.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/models/errors-msg.ts</context>
           <context context-type="linenumber">93</context>
